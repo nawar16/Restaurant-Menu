@@ -6,7 +6,7 @@
                     <div class="card-body">
                         <h1 class="text-center">Register</h1>
                         <h3 class="text-center">Restaurant Menu</h3>
-                        <hr/> 
+                        <hr/>
                         <form action="javascript:void(0)" @submit="register" class="row" method="post">
                             <div class="col-12" v-if="Object.keys(validationErrors).length > 0">
                                 <div class="alert alert-danger">
@@ -62,11 +62,14 @@ export default {
             validationErrors:{},
             processing:false
         }
-    },
+    }, 
     methods:{
         ...mapActions({
             signIn:'auth/login',
             getMenu:'dashboard/getMenu',
+            getCategory:'category/getCategory',
+            availableParentCategories:'category/availableParentCategories',
+            availableItemCategories:'category/availableItemCategories'
 
         }),
         async register(){
@@ -76,6 +79,9 @@ export default {
                 this.validationErrors = {}
                 this.signIn()
                 this.getMenu()
+                this.getCategory()
+                this.availableParentCategories()
+                this.availableItemCategories()
             }).catch(({response})=>{
                 if(response.status===422){
                     this.validationErrors = response.data.errors

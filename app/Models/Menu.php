@@ -34,15 +34,15 @@ class Menu extends Model
             $data["discountPrice"] += $item->discount_price;
             $data["originalPrice"] += $item->price;
         }
+        $data['totalPrice'] = $data["originalPrice"] - $data["discountPrice"];
         return $data;
     }
     public function discountable()
     {
         return $this->morphOne(Discount::class, 'discountable');
     }
-
     public function getDiscountAttribute()
     {
-        return 0;
+        return $this->discountable?->value;
     }
 }

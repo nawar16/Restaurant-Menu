@@ -3,6 +3,7 @@
 use App\Http\Controllers\API\CategoryController;
 use App\Http\Controllers\API\ItemController;
 use App\Http\Controllers\API\MenuController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,11 +16,15 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-Route::middleware('auth:sanctum')->group(function () {
-Route::get('/user', [\App\Http\Controllers\HomeController::class,"user"]);
 
+//CustomApiResponse
+Route::middleware('auth:sanctum')->group(function () {
+    Route::get('/user', [HomeController::class,"user"]);
+    Route::get('/menu', [MenuController::class,"user_menu"]);
+   // Route::get('/prices/{id}', [HomeController::class,"prices"]);
+    Route::put('/menu/{id}', [MenuController::class,"update"]);
+    Route::resource('categories', CategoryController::class);
+    Route::get('/availableParentCategories', [CategoryController::class,"availableParentCategories"]);
+    Route::get('/availableItemCategories', [CategoryController::class,"availableItemCategories"]);
+    Route::resource('items', ItemController::class);
 });
- 
-Route::resource('categories', CategoryController::class);
-Route::resource('items', ItemController::class);
-Route::resource('menus', MenuController::class);

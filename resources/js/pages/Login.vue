@@ -1,4 +1,4 @@
-<template>
+<template> 
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12 col-md-6 offset-md-3">
@@ -6,7 +6,7 @@
                     <div class="card-body">
                         <h1 class="text-center">Login</h1>
                         <h3 class="text-center">Restaurant Menu</h3>
-                        <hr/> 
+                        <hr/>
                         <form action="javascript:void(0)" class="row" method="post">
                             <div class="col-12" v-if="Object.keys(validationErrors).length > 0">
                                 <div class="alert alert-danger">
@@ -58,6 +58,9 @@ export default {
         ...mapActions({
             signIn:'auth/login',
             getMenu:'dashboard/getMenu',
+            getCategory:'category/getCategory',
+            availableParentCategories:'category/availableParentCategories',
+            availableItemCategories:'category/availableItemCategories'
         }),
         async login(){
             this.processing = true
@@ -65,6 +68,9 @@ export default {
             await axios.post('/login',this.auth).then(({data})=>{
                 this.signIn()
                 this.getMenu()
+                this.getCategory()
+                this.availableParentCategories()
+                this.availableItemCategories()
             }).catch(({response})=>{
                 if(response.status===422){
                     this.validationErrors = response.data.errors

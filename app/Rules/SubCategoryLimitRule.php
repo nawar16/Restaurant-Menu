@@ -14,7 +14,7 @@ class SubCategoryLimitRule implements Rule
     }
     public function passes($attribute, $value)
     {
-        $limitExceeded = Category::find($this->parameters[0])?->depth >= 4;
+        $limitExceeded = Category::find($this->parameters[0])?->level >= 4;
         return !$limitExceeded;
     }
     public function message()

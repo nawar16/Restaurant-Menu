@@ -30,7 +30,7 @@ class UpdateCategoryRequest extends FormRequest
             'parent_id' => [
                 'nullable',
                 Rule::exists('categories', 'id')
-                    ->where('child_type', "category")->whereNot("depth",4),
+                    ->where('child_type', "category")->whereNot("level",4),
             ],
             'discount'=>'nullable|between:0,100',
             'child_type'=>'nullable|in:item,category'

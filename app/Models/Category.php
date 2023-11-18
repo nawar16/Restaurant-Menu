@@ -9,7 +9,7 @@ class Category extends Model
 {
     use HasFactory;
     protected $fillable=["name","slug","parent_id","menu_id","level","child_type"];
-
+    protected $appends = ['discount'];
     /**
      * Get the comments for the blog post.
      */
@@ -28,6 +28,11 @@ class Category extends Model
         return $this->belongsTo(Category::class,'parent_id');
     }
 
+    public function menu()
+    {
+        return $this->belongsTo(Menu::class,'menu_id');
+    }
+
     public function getParentsAttribute()
     {
         $parents = collect([]);
@@ -44,5 +49,15 @@ class Category extends Model
     public function discountable()
     {
         return $this->morphOne(Discount::class, 'discountable');
+    }
+    public function getDiscountAttribute()
+    {
+        if($this->discountable) return $this->discountable->value;
+        foreach ($this->getParentsAttribute() as $category){
+            if($category->discount){
+                return $category->discount;
+            }
+        }
+        return $this->menu->discount ?? 0;
     }
 }

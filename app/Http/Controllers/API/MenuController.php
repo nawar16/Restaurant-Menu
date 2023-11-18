@@ -7,6 +7,7 @@ use App\Http\Requests\CreateMenuRequest;
 use App\Http\Requests\UpdateMenuRequest;
 use App\Http\Resources\MenuResource;
 use App\Services\MenuService;
+use Illuminate\Http\Request;
 
 class MenuController extends Controller
 {
@@ -54,10 +55,9 @@ class MenuController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $slug) 
+    public function user_menu() 
     {
-
-        $menu = $this->menuService->findWithoutFail($slug);
+        $menu = $this->menuService->user_menu(auth()->user()->id);
 
         if(!$menu) return response()->error(404, __(':resource_not_found', ['resource' => 'Menu']));
 

@@ -9,7 +9,7 @@ import '../sass/app.scss'
 import Router from '@/router'
 import store from '@/store'
 import { createApp } from 'vue/dist/vue.esm-bundler.js';
- 
+
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
  * registering components with the application instance so they are ready
@@ -18,9 +18,9 @@ import { createApp } from 'vue/dist/vue.esm-bundler.js';
 
 const app = createApp({});
 
-// import ExampleComponent from './components/ExampleComponent.vue';
-// app.component('example-component', ExampleComponent);
-
+import ExampleComponent from './components/ExampleComponent.vue';
+app.component('example-component', ExampleComponent);
+ 
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

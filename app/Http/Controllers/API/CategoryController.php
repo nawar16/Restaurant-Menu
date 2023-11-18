@@ -64,6 +64,23 @@ class CategoryController extends Controller
         return (new CategoryResource($category));
     }
 
+
+    public function availableParentCategories()
+    {
+        $categorys = $this->categoryService->availableParentCategories();
+
+        return CategoryResource::collection($categorys);
+    }
+
+    public function availableItemCategories()
+    {
+        $categorys = $this->categoryService->availableItemCategories();
+
+        return CategoryResource::collection($categorys);
+    }
+
+    
+
     /**
      * Show the form for editing the specified resource.
      */

@@ -4,11 +4,17 @@
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button> 
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <router-link :to="{name:'dashboard'}" class="nav-link">Dashboard</router-link>
+                            <router-link :to="{name:'dashboard'}" class="nav-link">Menu</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link :to="{name:'category'}" class="nav-link">Category</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link :to="{name:'item'}" class="nav-link">Item</router-link>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -33,7 +39,7 @@
 </template>
 
 <script>
-import {mapActions} from 'vuex'
+import {mapActions} from 'vuex' 
 export default {
     name:"default-layout",
     data(){

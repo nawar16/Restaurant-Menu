@@ -2,6 +2,7 @@ import { createStore } from 'vuex'
 import createPersistedState from 'vuex-persistedstate'
 import auth from '@/store/auth'
 import dashboard from '@/store/dashboard'
+import category from '@/store/category'
 
  
 const store = createStore({
@@ -10,7 +11,8 @@ const store = createStore({
     ],
     modules:{
         auth,
-        dashboard
+        dashboard,
+        category
     }
 })
 

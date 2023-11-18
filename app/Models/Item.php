@@ -44,12 +44,25 @@ class Item extends Model
     }
     public function getDiscountAttribute()
     {
-  
-        return 0;
+        return $this->discountable ?
+         $this->discountable->value : $this->category->discount;
     }
     public function getDiscountPriceAttribute()
     {
-  
-        return 0;
+        return number_format(($this->discount/100) * $this->price, 2, '.', '');
+    
+        //TODO: if acumulative discount with menu and parent categories
+        /**
+         * 
+         * $discount = 1.0;
+         * $discount = (1 - $this->menu->discount/100) * $discount;
+         * foreach ($this->getCategoriesAttribute() as $category){
+         *    $discount = (1 - $category->discount/100) * $discount;
+         * }
+         * $discount = (1 - $this->discount/100) * $discount;
+         * return number_format(($discount) * $this->price, 2, '.', '');
+         * 
+         */
+
     }
 }

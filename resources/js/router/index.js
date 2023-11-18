@@ -5,13 +5,15 @@ import store from '@/store'
 const Login = () => import('@/pages/Login.vue')
 const Register = () => import('@/pages/Register.vue')
 /* Guest Component */
- 
+
 /* Layouts */
 const DahboardLayout = () => import('@/layouts/Layout.vue')
 /* Layouts */
 
 /* Authenticated Component */
 const Dashboard = () => import('@/pages/Dashboard.vue')
+const Category = () => import('@/pages/Category.vue')
+const Item = () => import('@/pages/Item.vue')
 /* Authenticated Component */
 
 
@@ -49,6 +51,22 @@ const routes = [
                     title: `Dashboard`
                 }
             },
+            {
+                name: "category",
+                path: '/',
+                component: Category,
+                meta: {
+                    title: `Category`
+                }
+            },
+            {
+                name: "item",
+                path: '/',
+                component: Item,
+                meta: {
+                    title: `Item`
+                }
+            }
         ]
     }
 ]
@@ -57,7 +75,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes, // short for `routes: routes`
 })
-
+ 
 router.beforeEach((to, from, next) => {
     document.title = to.meta.title
     if (to.meta.middleware == "guest") {

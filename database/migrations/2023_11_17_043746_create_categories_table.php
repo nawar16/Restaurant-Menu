@@ -18,7 +18,7 @@ return new class extends Migration
             $table->String("name");
             $table->String("slug")->nullable();
             $table->enum("child_type",['category', 'item']);
-            $table->integer("level")->default(0);
+            $table->integer("level")->default(1);
             $table->unsignedBigInteger("menu_id");
             $table->foreign('menu_id')->references('id')->on('menus')->onDelete("cascade");
             $table->unsignedBigInteger("parent_id")->nullable();

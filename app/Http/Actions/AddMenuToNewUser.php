@@ -12,7 +12,7 @@ class AddMenuToNewUser
     public function execute(User $user){
         Menu::create([
             'name' => $user->name.' Menu',
-            'user_id'=>$user->id
+            'user_id' => $user->id
         ]);
     }
 
