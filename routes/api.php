@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\API\CategoryController;
+use App\Http\Controllers\API\ItemController;
+use App\Http\Controllers\API\MenuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +21,5 @@ Route::get('/user', [\App\Http\Controllers\HomeController::class,"user"]);
 });
  
 Route::resource('categories', CategoryController::class);
+Route::resource('items', ItemController::class);
+Route::resource('menus', MenuController::class);

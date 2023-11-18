@@ -26,7 +26,16 @@ class Menu extends Model
     {
         return $this->hasMany(Item::class);
     }
-
+    public function getPricesAttribute()
+    {
+        $data["discountPrice"] = 0;
+        $data["originalPrice"] = 0;
+        foreach($this->items as $item){
+            $data["discountPrice"] += $item->discount_price;
+            $data["originalPrice"] += $item->price;
+        }
+        return $data;
+    }
    
 
 }

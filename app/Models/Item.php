@@ -38,4 +38,8 @@ class Item extends Model
 
         return $categories;
     }
+    public function getDiscountPriceAttribute()
+    {
+        return 0;
+    }
 }
