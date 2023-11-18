@@ -10,9 +10,9 @@ class Menu extends Model
 {
     use HasFactory;
 
-    protected $fillable=["name","user_id","discount"];
+    protected $fillable=["name","user_id"];
 
-    protected $appends = ['prices'];
+    protected $appends = ['prices', 'discount'];
 
     /**
      * Get the user that owns the menu.
@@ -36,6 +36,13 @@ class Menu extends Model
         }
         return $data;
     }
-   
+    public function discountable()
+    {
+        return $this->morphOne(Discount::class, 'discountable');
+    }
 
+    public function getDiscountAttribute()
+    {
+        return 0;
+    }
 }

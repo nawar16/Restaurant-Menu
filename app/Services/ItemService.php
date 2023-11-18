@@ -25,12 +25,27 @@ class ItemService
 
   public function create($data) {
     $item = $this->item->create($data);
+        if(isset($data['discount']))
+    {
+      $item->discountable()->make([
+        'value' => $data['discount'],
+        'type' => 'item'
+      ]);
+    }
     return $item;
   }
 
   public function update($data, int $id) {
     $item = $this->item->find($id);
     $item->fill($data)->save();
+        if(isset($data['discount']))
+    {
+      $item->discountable()->delete();
+      $item->discountable()->make([
+        'value' => $data['discount'],
+        'type' => 'item'
+      ]);
+    }
     return $this->item->where('id', $id)->first();
   }
 

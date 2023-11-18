@@ -25,12 +25,27 @@ class MenuService
 
   public function create($data) {
     $menu = $this->menu->create($data);
+        if(isset($data['discount']))
+    {
+      $menu->discountable()->make([
+        'value' => $data['discount'],
+        'type' => 'menu'
+      ]);
+    }
     return $menu;
   }
 
   public function update($data, int $id) {
     $menu = $this->menu->find($id);
     $menu->fill($data)->save();
+    if(isset($data['discount']))
+    {
+      $menu->discountable()->delete();
+      $menu->discountable()->make([
+        'value' => $data['discount'],
+        'type' => 'menu'
+      ]);
+    }
     return $this->menu->where('id', $id)->first();
   }
 

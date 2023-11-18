@@ -25,12 +25,27 @@ class CategoryService
 
   public function create($data) {
     $category = $this->category->create($data);
+    if(isset($data['discount']))
+    {
+      $category->discountable()->make([
+        'value' => $data['discount'],
+        'type' => 'category'
+      ]);
+    }
     return $category;
   }
 
   public function update($data, int $id) {
     $category = $this->category->find($id);
     $category->fill($data)->save();
+    if(isset($data['discount']))
+    {
+      $category->discountable()->delete();
+      $category->discountable()->make([
+        'value' => $data['discount'],
+        'type' => 'category'
+      ]);
+    }
     return $this->category->where('id', $id)->first();
   }
 

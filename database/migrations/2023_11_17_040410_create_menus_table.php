@@ -16,7 +16,6 @@ return new class extends Migration
         Schema::create('menus', function (Blueprint $table) {
             $table->id();
             $table->String("name");
-            $table->integer("discount")->default(0);
             $table->unsignedBigInteger("user_id");
             $table->foreign('user_id')->references('id')->on('users')->onDelete("cascade");
             $table->timestamps();

@@ -27,7 +27,8 @@ class CreateCategoryRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required',Rule::unique('categories','name')->where(fn ($query) => $query->where('menu_id', Auth::user()->menu->id))],
+            'name' => ['required'],
+            //Rule::unique('categories','name')->where(fn ($query) => $query->where('menu_id', Auth::user()->menu->id))],
             'parent_id' => [
                 'nullable',
                 Rule::exists('categories', 'id')

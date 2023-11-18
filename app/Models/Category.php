@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     use HasFactory;
-    protected $fillable=["name","slug","discount","parent_id","menu_id","level","child_type"];
+    protected $fillable=["name","slug","parent_id","menu_id","level","child_type"];
 
     /**
      * Get the comments for the blog post.
@@ -41,5 +41,8 @@ class Category extends Model
 
         return $parents;
     }
-
+    public function discountable()
+    {
+        return $this->morphOne(Discount::class, 'discountable');
+    }
 }

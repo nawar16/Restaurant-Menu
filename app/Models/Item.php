@@ -9,9 +9,9 @@ class Item extends Model
 {
     use HasFactory;
 
-    protected $fillable=["name","slug","discount","category_id","price","menu_id"];
+    protected $fillable=["name","slug","category_id","price","menu_id"];
 
-    protected $appends = ['discount_price'];
+    protected $appends = ['discount_price', 'discount'];
 
     protected $hidden = ['category'];
 
@@ -38,8 +38,18 @@ class Item extends Model
 
         return $categories;
     }
+    public function discountable()
+    {
+        return $this->morphOne(Discount::class, 'discountable');
+    }
+    public function getDiscountAttribute()
+    {
+  
+        return 0;
+    }
     public function getDiscountPriceAttribute()
     {
+  
         return 0;
     }
 }
