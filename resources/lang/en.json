@@ -1,0 +1,11 @@
+{
+    ":resource_deleted": ":resource deleted succesfully",
+    ":resource_created": ":resource created succesfully",
+    ":resource_updated": ":resource updated succesfully",
+    ":resource_not_found": ":resource not found",
+    "thank_you:operation": "Thank you for your :operation!",
+    ":operation_done_successfully": "The :operation done successfully!",
+    "no_:resources": "There are no :resources",
+    "no_:resource": "There is no :resource",
+    "something_went_wrong": "Something went wrong"
+}
