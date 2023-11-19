@@ -4,13 +4,13 @@
             <div class="col-12 col-md-6 offset-md-3">
                 <div class="card shadow sm">
                     <div class="card-body">
-                        <h1 class="text-center">Add Category</h1>
+                        <h1 class="text-center">Add Item</h1>
                         <hr/>
                         <form action="javascript:void(0)" class="row" method="post">
                             <div class="col-12" v-if="Object.keys(validationErrors).length > 0">
                                 <div class="alert alert-danger">
                                     <ul class="mb-0">
-                                        <li v-for="(value, key) in validationErrors" :key="key">{{ value[0] }}</li>
+                                        <li v-for="(value, key) in validationErrors" :key="key">{{ value }}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -75,12 +75,10 @@ export default {
         async add(){
             this.processing = true
             axios.post(`/api/items`,this.item).then((res)=>{
-                console.log(res.data.name);
                 this.addItem(res.data)
                 this.validationErrors = {}
             }).catch(({response})=>{
                 if(response.status===422){
-                    console.log(response)
                     this.validationErrors = response.data.errors
                 }else{
                     this.validationErrors = {}

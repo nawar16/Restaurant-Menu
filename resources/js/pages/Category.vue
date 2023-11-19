@@ -10,7 +10,7 @@
                             <div class="col-12" v-if="Object.keys(validationErrors).length > 0">
                                 <div class="alert alert-danger">
                                     <ul class="mb-0">
-                                        <li v-for="(value, key) in validationErrors" :key="key">{{ value[0] }}</li>
+                                        <li v-for="(value, key) in validationErrors" :key="key">{{ value }}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -80,14 +80,11 @@ export default {
         }),
         async add(){
             this.processing = true
-            console.log(this.category.parent_id);
             axios.post(`/api/categories`,this.category).then((res)=>{
                 this.addCategory(res.data.data)
-                console.log(res.data.data);
                 this.validationErrors = {}
             }).catch(({response})=>{
                 if(response.status===422){
-                    console.log(response)
                     this.validationErrors = response.data.errors
                 }else{
                     this.validationErrors = {}

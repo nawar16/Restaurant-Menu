@@ -8,7 +8,7 @@
                                 <div class="col-12" v-if="Object.keys(validationErrors).length > 0">
                                     <div class="alert alert-danger">
                                         <ul class="mb-0">
-                                            <li v-for="(value, key) in validationErrors" :key="key">{{ value[0] }}</li>
+                                            <li v-for="(value, key) in validationErrors" :key="key">{{ value }}</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -48,43 +48,42 @@
                     <div class="card">
                     <div class="card-header justify-content-center">Categories and Items Tree</div>
                     <div class="card-body">
-                       Menu Name: {{menu.name}}
-                    </div>
-                    <ul v-for="item in categories">
-                        <div class="card-header">Category Name : {{item.name}} - Discount : {{item.discount}}  <button class="btn btn-danger " @click="deleteCategory(item.id)">Delete</button></div>
+                        <ul v-for="item in categories">
+                        <div class="card-header">Category Name : {{item.name}} / Discount: ({{item.discount}}%)  <button class="btn btn-danger " @click="deleteCategory(item.id)"> X </button></div>
                         <hr class="hr" />
                         <ul v-for="subItem in item.sub_categories">
-                            <div class="card-header">Sub Category (level-1) Name : {{subItem.name}} - Discount : {{subItem.discount}} <button class="btn btn-danger " @click="deleteCategory(subItem.id)">Delete</button></div>
+                            <div class="card-header">Sub Category (level-1) Name : {{subItem.name}} / Discount: ({{subItem.discount}}%) <button class="btn btn-danger " @click="deleteCategory(subItem.id)"> X </button></div>
                             <hr class="hr" />
                             <ul v-for="subItem in subItem.sub_categories">
-                                <div class="card-header">Sub Category (level-2) Name : {{subItem.name}} - Discount : {{subItem.discount}}  <button class="btn btn-danger " @click="deleteCategory(subItem.id)">Delete</button></div>
+                                <div class="card-header">Sub Category (level-2) Name : {{subItem.name}} / Discount: ({{subItem.discount}}%)  <button class="btn btn-danger " @click="deleteCategory(subItem.id)"> X </button></div>
                                 <hr class="hr" />
                                 <ul v-for="subItem in subItem.sub_categories">
-                                    <div class="card-header">Sub Category (level-3) Name : {{subItem.name}} - Discount : {{subItem.discount}}  <button class="btn btn-danger " @click="deleteCategory(subItem.id)">Delete</button></div>
+                                    <div class="card-header">Sub Category (level-3) Name : {{subItem.name}} / Discount: ({{subItem.discount}}%)  <button class="btn btn-danger " @click="deleteCategory(subItem.id)"> X </button></div>
                                     <hr class="hr" />
                                     <ul v-for="subItem in subItem.sub_categories">
-                                        <div class="card-header">Sub Category (level-4) Name : {{subItem.name}} - Discount : {{subItem.discount}}  <button class="btn btn-danger " @click="deleteCategory(subItem.id)">Delete</button></div>
+                                        <div class="card-header">Sub Category (level-4) Name : {{subItem.name}} / Discount: ({{subItem.discount}}%)  <button class="btn btn-danger " @click="deleteCategory(subItem.id)"> X </button></div>
                                         <hr class="hr" />
                                         <ul v-for="item in subItem.items">
-                                            <li>Item Name:{{item.name}} - Price:{{item.price}}  Discount : {{item.discount}}  Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)">Delete</button></li>
+                                            <li>Item Name:{{item.name}} / Price:{{item.price}} / Discount: ({{item.discount}}%) / Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)"> X </button></li>
                                         </ul>
                                     </ul>
                                     <ul v-for="item in subItem.items">
-                                        <li>Item Name:{{item.name}} - Price:{{item.price}}  Discount : {{item.discount}}  Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)">Delete</button></li>
+                                        <li>Item Name:{{item.name}} / Price:{{item.price}} / Discount: ({{item.discount}}%) / Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)"> X </button></li>
                                     </ul>
                                 </ul>
                                 <ul v-for="item in subItem.items">
-                                    <li>Item Name:{{item.name}} - Price:{{item.price}}  Discount : {{item.discount}}  Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)">Delete</button></li>
+                                    <li>Item Name:{{item.name}} / Price:{{item.price}} / Discount: ({{item.discount}}%) / Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)"> X </button></li>
                                 </ul>
                             </ul>
                             <ul v-for="item in subItem.items">
-                                <li>Item Name:{{item.name}} - Price:{{item.price}}  Discount : {{item.discount}}  Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)">Delete</button></li>
+                                <li>Item Name:{{item.name}} / Price:{{item.price}} / Discount: ({{item.discount}}%) / Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)"> X </button></li>
                             </ul>
                         </ul>
                         <ul v-for="item in item.items">
-                            <li>Item Name:{{item.name}} - Price:{{item.price}}  Discount : {{item.discount}}  Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)">Delete</button></li>
+                            <li>Item Name:{{item.name}} / Price:{{item.price}} / Discount: ({{item.discount}}%) / Discounted Price: {{item.discount_price}} <button class="btn btn-danger " @click="deleteItem(item.id)"> X </button></li>
                         </ul>
                     </ul>
+                    </div>
                 </div>
                 </div>
         </div>
@@ -127,13 +126,11 @@ export default {
             this.processing = true
             axios.put(`/api/menu/${this.menu.id}`,this.menu).then((res)=>{
                 res = res.data;
-                console.log("success "+res);
                 this.updateMenu(res.data)
                 this.getCategory()
                 this.validationErrors = {}
             }).catch(({response})=>{
                 if(response.status===422){
-                    console.log(response)
                     this.validationErrors = response.data.errors
                 }else{
                     this.validationErrors = {}
@@ -146,11 +143,9 @@ export default {
         async deleteCategory(id){
             this.processing = true
             axios.delete(`/api/categories/${id}`).then((res)=>{
-                console.log(res)
                 this.removeCategory(id)
             }).catch(({response})=>{
                 if(response.status===422){
-                    console.log(response)
                     this.validationErrors = response.data.errors
                 }else{
                     this.validationErrors = {}
@@ -163,11 +158,9 @@ export default {
         async deleteItem(id){
             this.processing = true
             axios.delete(`/api/items/${id}`).then((res)=>{
-                console.log(res)
                 this.removeItem()
             }).catch(({response})=>{
                 if(response.status===422){
-                    console.log(response)
                     this.validationErrors = response.data.errors
                 }else{
                     this.validationErrors = {}

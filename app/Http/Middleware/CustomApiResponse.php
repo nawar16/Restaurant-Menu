@@ -28,7 +28,6 @@ class CustomApiResponse
         $status === 422 ? 'Failed' : JsonResponse::$statusTexts[$status];
 
         if ($status === 500) {
-            dd($response);
             return response()->error($status, 'error.unexpected');
         }
 

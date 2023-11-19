@@ -78,7 +78,6 @@ export default {
             commit('ADD_AVAILABLE_ITEM_CATEGORIES',data)
             return axios.get('/api/categories').then(({data})=>{
                 data = data.data;
-                console.log(data);
                 commit('SET_CATEGORIES',data)
                 router.push({name:'dashboard'})
             }).catch(({response:{data}})=>{
@@ -86,7 +85,6 @@ export default {
             })
         },
         removeCategory({commit},data){
-            data = data.data
             commit('REMOVE_CATEGORIES',data)
             commit('REMOVE_PARENT_CATEGORIES',data)
             commit('REMOVE_ITEM_CATEGORIES',data)
@@ -94,7 +92,6 @@ export default {
         getCategory({commit}){
             return axios.get('/api/categories').then(({data})=>{
                 data = data.data;
-                console.log(data);
                 commit('SET_CATEGORIES',data)
             }).catch(({response:{data}})=>{
                 console.log(data);
@@ -103,7 +100,6 @@ export default {
         availableParentCategories({commit}){
             return axios.get('/api/availableParentCategories').then(({data})=>{
                 data = data.data;
-                console.log(data);
                 commit('SET_AVAILABLE_PARENT_CATEGORIES',data)
             }).catch(({response:{data}})=>{
                 console.log(data);
@@ -112,7 +108,6 @@ export default {
         availableItemCategories({commit}){
             return axios.get('/api/availableItemCategories').then(({data})=>{
                 data = data.data;
-                console.log(data);
                 commit('SET_AVAILABLE_ITEM_CATEGORIES',data)
             }).catch(({response:{data}})=>{
                 console.log(data);

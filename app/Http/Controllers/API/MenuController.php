@@ -22,14 +22,17 @@ class MenuController extends Controller
     }
 
     /**
-     * Display a listing of the resource.
+     * Display the menu of current user
      */
-    public function index()
+    public function index() 
     {
-        $menus = $this->menuService->findAll();
+        $menu = $this->menuService->user_menu(auth()->user()->id);
 
-        return MenuResource::collection($menus);
+        if(!$menu) return response()->error(404, __(':resource_not_found', ['resource' => 'Menu']));
+
+        return (new MenuResource($menu));
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -51,18 +54,7 @@ class MenuController extends Controller
         return (new MenuResource($menu));
     }
 
-        
-    /**
-     * Display the specified resource.
-     */
-    public function user_menu() 
-    {
-        $menu = $this->menuService->user_menu(auth()->user()->id);
-
-        if(!$menu) return response()->error(404, __(':resource_not_found', ['resource' => 'Menu']));
-
-        return (new MenuResource($menu));
-    }
+ 
 
     /**
      * Show the form for editing the specified resource.

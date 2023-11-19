@@ -11,7 +11,7 @@
                             <div class="col-12" v-if="Object.keys(validationErrors).length > 0">
                                 <div class="alert alert-danger">
                                     <ul class="mb-0">
-                                        <li v-for="(value, key) in validationErrors" :key="key">{{ value[0] }}</li>
+                                        <li v-for="(value, key) in validationErrors" :key="key">{{ value }}</li>
                                     </ul>
                                 </div>
                             </div>
