@@ -1,0 +1,4964 @@
+{
+  "version": 2,
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "assets/Login-b800bf28.js",
+        "children": [
+          {
+            "name": "D:/Full-Stack test/main/resources/js/pages/Login.vue",
+            "uid": "a57b-1"
+          }
+        ]
+      },
+      {
+        "name": "assets/Layout-0ed1d4ac.js",
+        "children": [
+          {
+            "name": "D:/Full-Stack test/main/resources/js/layouts/Layout.vue",
+            "uid": "a57b-3"
+          }
+        ]
+      },
+      {
+        "name": "assets/Item-fc40c1ac.js",
+        "children": [
+          {
+            "name": "D:/Full-Stack test/main/resources/js/pages/Item.vue",
+            "uid": "a57b-5"
+          }
+        ]
+      },
+      {
+        "name": "assets/Dashboard-3e621121.js",
+        "children": [
+          {
+            "name": "D:/Full-Stack test/main/resources/js/pages/Dashboard.vue",
+            "uid": "a57b-7"
+          }
+        ]
+      },
+      {
+        "name": "assets/Category-67a79678.js",
+        "children": [
+          {
+            "name": "D:/Full-Stack test/main/resources/js/pages/Category.vue",
+            "uid": "a57b-9"
+          }
+        ]
+      },
+      {
+        "name": "assets/Register-6d02b449.js",
+        "children": [
+          {
+            "name": "D:/Full-Stack test/main/resources/js/pages/Register.vue",
+            "uid": "a57b-11"
+          }
+        ]
+      },
+      {
+        "name": "assets/app-80a87d10.js",
+        "children": [
+          {
+            "uid": "a57b-13",
+            "name": "\u0000commonjsHelpers.js"
+          },
+          {
+            "name": "\u0000D:/Full-Stack test/main/node_modules/lodash/lodash.js?commonjs-module",
+            "uid": "a57b-15"
+          },
+          {
+            "name": "D:/Full-Stack test/main",
+            "children": [
+              {
+                "name": "node_modules",
+                "children": [
+                  {
+                    "name": "lodash/lodash.js",
+                    "uid": "a57b-17"
+                  },
+                  {
+                    "name": "@popperjs/core/lib",
+                    "children": [
+                      {
+                        "uid": "a57b-19",
+                        "name": "enums.js"
+                      },
+                      {
+                        "name": "dom-utils",
+                        "children": [
+                          {
+                            "uid": "a57b-21",
+                            "name": "getNodeName.js"
+                          },
+                          {
+                            "uid": "a57b-23",
+                            "name": "getWindow.js"
+                          },
+                          {
+                            "uid": "a57b-25",
+                            "name": "instanceOf.js"
+                          },
+                          {
+                            "uid": "a57b-35",
+                            "name": "isLayoutViewport.js"
+                          },
+                          {
+                            "uid": "a57b-37",
+                            "name": "getBoundingClientRect.js"
+                          },
+                          {
+                            "uid": "a57b-39",
+                            "name": "getLayoutRect.js"
+                          },
+                          {
+                            "uid": "a57b-41",
+                            "name": "contains.js"
+                          },
+                          {
+                            "uid": "a57b-43",
+                            "name": "getComputedStyle.js"
+                          },
+                          {
+                            "uid": "a57b-45",
+                            "name": "isTableElement.js"
+                          },
+                          {
+                            "uid": "a57b-47",
+                            "name": "getDocumentElement.js"
+                          },
+                          {
+                            "uid": "a57b-49",
+                            "name": "getParentNode.js"
+                          },
+                          {
+                            "uid": "a57b-51",
+                            "name": "getOffsetParent.js"
+                          },
+                          {
+                            "uid": "a57b-75",
+                            "name": "getWindowScroll.js"
+                          },
+                          {
+                            "uid": "a57b-77",
+                            "name": "getWindowScrollBarX.js"
+                          },
+                          {
+                            "uid": "a57b-79",
+                            "name": "getViewportRect.js"
+                          },
+                          {
+                            "uid": "a57b-81",
+                            "name": "getDocumentRect.js"
+                          },
+                          {
+                            "uid": "a57b-83",
+                            "name": "isScrollParent.js"
+                          },
+                          {
+                            "uid": "a57b-85",
+                            "name": "getScrollParent.js"
+                          },
+                          {
+                            "uid": "a57b-87",
+                            "name": "listScrollParents.js"
+                          },
+                          {
+                            "uid": "a57b-91",
+                            "name": "getClippingRect.js"
+                          },
+                          {
+                            "uid": "a57b-111",
+                            "name": "getHTMLElementScroll.js"
+                          },
+                          {
+                            "uid": "a57b-113",
+                            "name": "getNodeScroll.js"
+                          },
+                          {
+                            "uid": "a57b-115",
+                            "name": "getCompositeRect.js"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "modifiers",
+                        "children": [
+                          {
+                            "uid": "a57b-27",
+                            "name": "applyStyles.js"
+                          },
+                          {
+                            "uid": "a57b-63",
+                            "name": "arrow.js"
+                          },
+                          {
+                            "uid": "a57b-67",
+                            "name": "computeStyles.js"
+                          },
+                          {
+                            "uid": "a57b-69",
+                            "name": "eventListeners.js"
+                          },
+                          {
+                            "uid": "a57b-99",
+                            "name": "flip.js"
+                          },
+                          {
+                            "uid": "a57b-101",
+                            "name": "hide.js"
+                          },
+                          {
+                            "uid": "a57b-103",
+                            "name": "offset.js"
+                          },
+                          {
+                            "uid": "a57b-105",
+                            "name": "popperOffsets.js"
+                          },
+                          {
+                            "uid": "a57b-109",
+                            "name": "preventOverflow.js"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "utils",
+                        "children": [
+                          {
+                            "uid": "a57b-29",
+                            "name": "getBasePlacement.js"
+                          },
+                          {
+                            "uid": "a57b-31",
+                            "name": "math.js"
+                          },
+                          {
+                            "uid": "a57b-33",
+                            "name": "userAgent.js"
+                          },
+                          {
+                            "uid": "a57b-53",
+                            "name": "getMainAxisFromPlacement.js"
+                          },
+                          {
+                            "uid": "a57b-55",
+                            "name": "within.js"
+                          },
+                          {
+                            "uid": "a57b-57",
+                            "name": "getFreshSideObject.js"
+                          },
+                          {
+                            "uid": "a57b-59",
+                            "name": "mergePaddingObject.js"
+                          },
+                          {
+                            "uid": "a57b-61",
+                            "name": "expandToHashMap.js"
+                          },
+                          {
+                            "uid": "a57b-65",
+                            "name": "getVariation.js"
+                          },
+                          {
+                            "uid": "a57b-71",
+                            "name": "getOppositePlacement.js"
+                          },
+                          {
+                            "uid": "a57b-73",
+                            "name": "getOppositeVariationPlacement.js"
+                          },
+                          {
+                            "uid": "a57b-89",
+                            "name": "rectToClientRect.js"
+                          },
+                          {
+                            "uid": "a57b-93",
+                            "name": "computeOffsets.js"
+                          },
+                          {
+                            "uid": "a57b-95",
+                            "name": "detectOverflow.js"
+                          },
+                          {
+                            "uid": "a57b-97",
+                            "name": "computeAutoPlacement.js"
+                          },
+                          {
+                            "uid": "a57b-107",
+                            "name": "getAltAxis.js"
+                          },
+                          {
+                            "uid": "a57b-117",
+                            "name": "orderModifiers.js"
+                          },
+                          {
+                            "uid": "a57b-119",
+                            "name": "debounce.js"
+                          },
+                          {
+                            "uid": "a57b-121",
+                            "name": "mergeByName.js"
+                          }
+                        ]
+                      },
+                      {
+                        "uid": "a57b-123",
+                        "name": "createPopper.js"
+                      },
+                      {
+                        "uid": "a57b-125",
+                        "name": "popper-lite.js"
+                      },
+                      {
+                        "uid": "a57b-127",
+                        "name": "popper.js"
+                      },
+                      {
+                        "uid": "a57b-129",
+                        "name": "index.js"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "bootstrap/dist/js/bootstrap.esm.js",
+                    "uid": "a57b-131"
+                  },
+                  {
+                    "name": "axios/lib",
+                    "children": [
+                      {
+                        "name": "helpers",
+                        "children": [
+                          {
+                            "uid": "a57b-133",
+                            "name": "bind.js"
+                          },
+                          {
+                            "uid": "a57b-139",
+                            "name": "null.js"
+                          },
+                          {
+                            "uid": "a57b-141",
+                            "name": "toFormData.js"
+                          },
+                          {
+                            "uid": "a57b-143",
+                            "name": "AxiosURLSearchParams.js"
+                          },
+                          {
+                            "uid": "a57b-145",
+                            "name": "buildURL.js"
+                          },
+                          {
+                            "uid": "a57b-157",
+                            "name": "toURLEncodedForm.js"
+                          },
+                          {
+                            "uid": "a57b-159",
+                            "name": "formDataToJSON.js"
+                          },
+                          {
+                            "uid": "a57b-163",
+                            "name": "parseHeaders.js"
+                          },
+                          {
+                            "uid": "a57b-175",
+                            "name": "cookies.js"
+                          },
+                          {
+                            "uid": "a57b-177",
+                            "name": "isAbsoluteURL.js"
+                          },
+                          {
+                            "uid": "a57b-179",
+                            "name": "combineURLs.js"
+                          },
+                          {
+                            "uid": "a57b-183",
+                            "name": "isURLSameOrigin.js"
+                          },
+                          {
+                            "uid": "a57b-185",
+                            "name": "parseProtocol.js"
+                          },
+                          {
+                            "uid": "a57b-187",
+                            "name": "speedometer.js"
+                          },
+                          {
+                            "uid": "a57b-199",
+                            "name": "validator.js"
+                          },
+                          {
+                            "uid": "a57b-205",
+                            "name": "spread.js"
+                          },
+                          {
+                            "uid": "a57b-207",
+                            "name": "isAxiosError.js"
+                          },
+                          {
+                            "uid": "a57b-209",
+                            "name": "HttpStatusCode.js"
+                          }
+                        ]
+                      },
+                      {
+                        "uid": "a57b-135",
+                        "name": "utils.js"
+                      },
+                      {
+                        "name": "core",
+                        "children": [
+                          {
+                            "uid": "a57b-137",
+                            "name": "AxiosError.js"
+                          },
+                          {
+                            "uid": "a57b-147",
+                            "name": "InterceptorManager.js"
+                          },
+                          {
+                            "uid": "a57b-165",
+                            "name": "AxiosHeaders.js"
+                          },
+                          {
+                            "uid": "a57b-167",
+                            "name": "transformData.js"
+                          },
+                          {
+                            "uid": "a57b-173",
+                            "name": "settle.js"
+                          },
+                          {
+                            "uid": "a57b-181",
+                            "name": "buildFullPath.js"
+                          },
+                          {
+                            "uid": "a57b-193",
+                            "name": "dispatchRequest.js"
+                          },
+                          {
+                            "uid": "a57b-195",
+                            "name": "mergeConfig.js"
+                          },
+                          {
+                            "uid": "a57b-201",
+                            "name": "Axios.js"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "defaults",
+                        "children": [
+                          {
+                            "uid": "a57b-149",
+                            "name": "transitional.js"
+                          },
+                          {
+                            "uid": "a57b-161",
+                            "name": "index.js"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "platform/browser",
+                        "children": [
+                          {
+                            "name": "classes",
+                            "children": [
+                              {
+                                "uid": "a57b-151",
+                                "name": "URLSearchParams.js"
+                              },
+                              {
+                                "uid": "a57b-153",
+                                "name": "FormData.js"
+                              }
+                            ]
+                          },
+                          {
+                            "uid": "a57b-155",
+                            "name": "index.js"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "cancel",
+                        "children": [
+                          {
+                            "uid": "a57b-169",
+                            "name": "isCancel.js"
+                          },
+                          {
+                            "uid": "a57b-171",
+                            "name": "CanceledError.js"
+                          },
+                          {
+                            "uid": "a57b-203",
+                            "name": "CancelToken.js"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "adapters",
+                        "children": [
+                          {
+                            "uid": "a57b-189",
+                            "name": "xhr.js"
+                          },
+                          {
+                            "uid": "a57b-191",
+                            "name": "adapters.js"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "env/data.js",
+                        "uid": "a57b-197"
+                      },
+                      {
+                        "uid": "a57b-211",
+                        "name": "axios.js"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "@vue",
+                    "children": [
+                      {
+                        "name": "shared/dist/shared.esm-bundler.js",
+                        "uid": "a57b-219"
+                      },
+                      {
+                        "name": "reactivity/dist/reactivity.esm-bundler.js",
+                        "uid": "a57b-221"
+                      },
+                      {
+                        "name": "runtime-core/dist/runtime-core.esm-bundler.js",
+                        "uid": "a57b-223"
+                      },
+                      {
+                        "name": "runtime-dom/dist/runtime-dom.esm-bundler.js",
+                        "uid": "a57b-225"
+                      },
+                      {
+                        "name": "devtools-api/lib/esm",
+                        "children": [
+                          {
+                            "uid": "a57b-227",
+                            "name": "env.js"
+                          },
+                          {
+                            "uid": "a57b-229",
+                            "name": "const.js"
+                          },
+                          {
+                            "uid": "a57b-231",
+                            "name": "time.js"
+                          },
+                          {
+                            "uid": "a57b-233",
+                            "name": "proxy.js"
+                          },
+                          {
+                            "uid": "a57b-235",
+                            "name": "index.js"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "vue-router/dist/vue-router.mjs",
+                    "uid": "a57b-237"
+                  },
+                  {
+                    "name": "vuex/dist/vuex.esm-bundler.js",
+                    "uid": "a57b-239"
+                  },
+                  {
+                    "name": "vuex-persistedstate/dist/vuex-persistedstate.es.js",
+                    "uid": "a57b-241"
+                  }
+                ]
+              },
+              {
+                "name": "resources",
+                "children": [
+                  {
+                    "name": "js",
+                    "children": [
+                      {
+                        "uid": "a57b-213",
+                        "name": "bootstrap.js"
+                      },
+                      {
+                        "name": "store",
+                        "children": [
+                          {
+                            "uid": "a57b-243",
+                            "name": "auth.js"
+                          },
+                          {
+                            "uid": "a57b-245",
+                            "name": "dashboard.js"
+                          },
+                          {
+                            "uid": "a57b-247",
+                            "name": "category.js"
+                          },
+                          {
+                            "uid": "a57b-249",
+                            "name": "index.js"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "router/index.js",
+                        "uid": "a57b-251"
+                      },
+                      {
+                        "name": "components",
+                        "children": [
+                          {
+                            "uid": "a57b-253",
+                            "name": "App.vue?vue&type=style&index=0&lang.css"
+                          },
+                          {
+                            "uid": "a57b-257",
+                            "name": "App.vue"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "sass/app.scss",
+                    "uid": "a57b-215"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "\u0000vite/preload-helper",
+            "uid": "a57b-217"
+          },
+          {
+            "uid": "a57b-255",
+            "name": "\u0000plugin-vue:export-helper"
+          },
+          {
+            "name": "resources/js/app.js",
+            "uid": "a57b-259"
+          }
+        ]
+      }
+    ],
+    "isRoot": true
+  },
+  "nodeParts": {
+    "a57b-1": {
+      "renderedLength": 5793,
+      "gzipLength": 1584,
+      "brotliLength": 1363,
+      "metaUid": "a57b-0"
+    },
+    "a57b-3": {
+      "renderedLength": 4038,
+      "gzipLength": 1134,
+      "brotliLength": 966,
+      "metaUid": "a57b-2"
+    },
+    "a57b-5": {
+      "renderedLength": 6622,
+      "gzipLength": 1593,
+      "brotliLength": 1352,
+      "metaUid": "a57b-4"
+    },
+    "a57b-7": {
+      "renderedLength": 18565,
+      "gzipLength": 2450,
+      "brotliLength": 2083,
+      "metaUid": "a57b-6"
+    },
+    "a57b-9": {
+      "renderedLength": 7279,
+      "gzipLength": 1700,
+      "brotliLength": 1444,
+      "metaUid": "a57b-8"
+    },
+    "a57b-11": {
+      "renderedLength": 7578,
+      "gzipLength": 1756,
+      "brotliLength": 1489,
+      "metaUid": "a57b-10"
+    },
+    "a57b-13": {
+      "renderedLength": 192,
+      "gzipLength": 108,
+      "brotliLength": 83,
+      "metaUid": "a57b-12"
+    },
+    "a57b-15": {
+      "renderedLength": 123,
+      "gzipLength": 90,
+      "brotliLength": 82,
+      "metaUid": "a57b-14"
+    },
+    "a57b-17": {
+      "renderedLength": 560158,
+      "gzipLength": 96749,
+      "brotliLength": 74668,
+      "metaUid": "a57b-16"
+    },
+    "a57b-19": {
+      "renderedLength": 1167,
+      "gzipLength": 463,
+      "brotliLength": 391,
+      "metaUid": "a57b-18"
+    },
+    "a57b-21": {
+      "renderedLength": 99,
+      "gzipLength": 102,
+      "brotliLength": 74,
+      "metaUid": "a57b-20"
+    },
+    "a57b-23": {
+      "renderedLength": 258,
+      "gzipLength": 165,
+      "brotliLength": 130,
+      "metaUid": "a57b-22"
+    },
+    "a57b-25": {
+      "renderedLength": 530,
+      "gzipLength": 202,
+      "brotliLength": 166,
+      "metaUid": "a57b-24"
+    },
+    "a57b-27": {
+      "renderedLength": 2348,
+      "gzipLength": 839,
+      "brotliLength": 717,
+      "metaUid": "a57b-26"
+    },
+    "a57b-29": {
+      "renderedLength": 74,
+      "gzipLength": 80,
+      "brotliLength": 68,
+      "metaUid": "a57b-28"
+    },
+    "a57b-31": {
+      "renderedLength": 63,
+      "gzipLength": 59,
+      "brotliLength": 53,
+      "metaUid": "a57b-30"
+    },
+    "a57b-33": {
+      "renderedLength": 254,
+      "gzipLength": 176,
+      "brotliLength": 150,
+      "metaUid": "a57b-32"
+    },
+    "a57b-35": {
+      "renderedLength": 95,
+      "gzipLength": 112,
+      "brotliLength": 74,
+      "metaUid": "a57b-34"
+    },
+    "a57b-37": {
+      "renderedLength": 1162,
+      "gzipLength": 440,
+      "brotliLength": 381,
+      "metaUid": "a57b-36"
+    },
+    "a57b-39": {
+      "renderedLength": 610,
+      "gzipLength": 316,
+      "brotliLength": 272,
+      "metaUid": "a57b-38"
+    },
+    "a57b-41": {
+      "renderedLength": 614,
+      "gzipLength": 344,
+      "brotliLength": 258,
+      "metaUid": "a57b-40"
+    },
+    "a57b-43": {
+      "renderedLength": 95,
+      "gzipLength": 84,
+      "brotliLength": 66,
+      "metaUid": "a57b-42"
+    },
+    "a57b-45": {
+      "renderedLength": 103,
+      "gzipLength": 106,
+      "brotliLength": 94,
+      "metaUid": "a57b-44"
+    },
+    "a57b-47": {
+      "renderedLength": 253,
+      "gzipLength": 179,
+      "brotliLength": 134,
+      "metaUid": "a57b-46"
+    },
+    "a57b-49": {
+      "renderedLength": 594,
+      "gzipLength": 341,
+      "brotliLength": 275,
+      "metaUid": "a57b-48"
+    },
+    "a57b-51": {
+      "renderedLength": 2259,
+      "gzipLength": 874,
+      "brotliLength": 728,
+      "metaUid": "a57b-50"
+    },
+    "a57b-53": {
+      "renderedLength": 112,
+      "gzipLength": 116,
+      "brotliLength": 95,
+      "metaUid": "a57b-52"
+    },
+    "a57b-55": {
+      "renderedLength": 188,
+      "gzipLength": 126,
+      "brotliLength": 114,
+      "metaUid": "a57b-54"
+    },
+    "a57b-57": {
+      "renderedLength": 102,
+      "gzipLength": 97,
+      "brotliLength": 85,
+      "metaUid": "a57b-56"
+    },
+    "a57b-59": {
+      "renderedLength": 111,
+      "gzipLength": 100,
+      "brotliLength": 82,
+      "metaUid": "a57b-58"
+    },
+    "a57b-61": {
+      "renderedLength": 144,
+      "gzipLength": 119,
+      "brotliLength": 99,
+      "metaUid": "a57b-60"
+    },
+    "a57b-63": {
+      "renderedLength": 2825,
+      "gzipLength": 1058,
+      "brotliLength": 918,
+      "metaUid": "a57b-62"
+    },
+    "a57b-65": {
+      "renderedLength": 70,
+      "gzipLength": 80,
+      "brotliLength": 63,
+      "metaUid": "a57b-64"
+    },
+    "a57b-67": {
+      "renderedLength": 5193,
+      "gzipLength": 1589,
+      "brotliLength": 1381,
+      "metaUid": "a57b-66"
+    },
+    "a57b-69": {
+      "renderedLength": 1233,
+      "gzipLength": 455,
+      "brotliLength": 389,
+      "metaUid": "a57b-68"
+    },
+    "a57b-71": {
+      "renderedLength": 237,
+      "gzipLength": 169,
+      "brotliLength": 140,
+      "metaUid": "a57b-70"
+    },
+    "a57b-73": {
+      "renderedLength": 194,
+      "gzipLength": 150,
+      "brotliLength": 123,
+      "metaUid": "a57b-72"
+    },
+    "a57b-75": {
+      "renderedLength": 203,
+      "gzipLength": 132,
+      "brotliLength": 116,
+      "metaUid": "a57b-74"
+    },
+    "a57b-77": {
+      "renderedLength": 532,
+      "gzipLength": 346,
+      "brotliLength": 274,
+      "metaUid": "a57b-76"
+    },
+    "a57b-79": {
+      "renderedLength": 654,
+      "gzipLength": 299,
+      "brotliLength": 239,
+      "metaUid": "a57b-78"
+    },
+    "a57b-81": {
+      "renderedLength": 870,
+      "gzipLength": 384,
+      "brotliLength": 316,
+      "metaUid": "a57b-80"
+    },
+    "a57b-83": {
+      "renderedLength": 373,
+      "gzipLength": 211,
+      "brotliLength": 150,
+      "metaUid": "a57b-82"
+    },
+    "a57b-85": {
+      "renderedLength": 340,
+      "gzipLength": 232,
+      "brotliLength": 180,
+      "metaUid": "a57b-84"
+    },
+    "a57b-87": {
+      "renderedLength": 972,
+      "gzipLength": 490,
+      "brotliLength": 399,
+      "metaUid": "a57b-86"
+    },
+    "a57b-89": {
+      "renderedLength": 176,
+      "gzipLength": 137,
+      "brotliLength": 114,
+      "metaUid": "a57b-88"
+    },
+    "a57b-91": {
+      "renderedLength": 2668,
+      "gzipLength": 902,
+      "brotliLength": 748,
+      "metaUid": "a57b-90"
+    },
+    "a57b-93": {
+      "renderedLength": 1469,
+      "gzipLength": 429,
+      "brotliLength": 365,
+      "metaUid": "a57b-92"
+    },
+    "a57b-95": {
+      "renderedLength": 2872,
+      "gzipLength": 891,
+      "brotliLength": 763,
+      "metaUid": "a57b-94"
+    },
+    "a57b-97": {
+      "renderedLength": 1423,
+      "gzipLength": 501,
+      "brotliLength": 427,
+      "metaUid": "a57b-96"
+    },
+    "a57b-99": {
+      "renderedLength": 4391,
+      "gzipLength": 1294,
+      "brotliLength": 1139,
+      "metaUid": "a57b-98"
+    },
+    "a57b-101": {
+      "renderedLength": 1840,
+      "gzipLength": 659,
+      "brotliLength": 601,
+      "metaUid": "a57b-100"
+    },
+    "a57b-103": {
+      "renderedLength": 1433,
+      "gzipLength": 605,
+      "brotliLength": 529,
+      "metaUid": "a57b-102"
+    },
+    "a57b-105": {
+      "renderedLength": 657,
+      "gzipLength": 365,
+      "brotliLength": 296,
+      "metaUid": "a57b-104"
+    },
+    "a57b-107": {
+      "renderedLength": 64,
+      "gzipLength": 78,
+      "brotliLength": 68,
+      "metaUid": "a57b-106"
+    },
+    "a57b-109": {
+      "renderedLength": 5924,
+      "gzipLength": 1645,
+      "brotliLength": 1439,
+      "metaUid": "a57b-108"
+    },
+    "a57b-111": {
+      "renderedLength": 127,
+      "gzipLength": 98,
+      "brotliLength": 83,
+      "metaUid": "a57b-110"
+    },
+    "a57b-113": {
+      "renderedLength": 178,
+      "gzipLength": 121,
+      "brotliLength": 111,
+      "metaUid": "a57b-112"
+    },
+    "a57b-115": {
+      "renderedLength": 1641,
+      "gzipLength": 625,
+      "brotliLength": 545,
+      "metaUid": "a57b-114"
+    },
+    "a57b-117": {
+      "renderedLength": 1122,
+      "gzipLength": 433,
+      "brotliLength": 377,
+      "metaUid": "a57b-116"
+    },
+    "a57b-119": {
+      "renderedLength": 287,
+      "gzipLength": 157,
+      "brotliLength": 128,
+      "metaUid": "a57b-118"
+    },
+    "a57b-121": {
+      "renderedLength": 509,
+      "gzipLength": 252,
+      "brotliLength": 203,
+      "metaUid": "a57b-120"
+    },
+    "a57b-123": {
+      "renderedLength": 6878,
+      "gzipLength": 2229,
+      "brotliLength": 1867,
+      "metaUid": "a57b-122"
+    },
+    "a57b-125": {
+      "renderedLength": 239,
+      "gzipLength": 186,
+      "brotliLength": 152,
+      "metaUid": "a57b-124"
+    },
+    "a57b-127": {
+      "renderedLength": 287,
+      "gzipLength": 214,
+      "brotliLength": 175,
+      "metaUid": "a57b-126"
+    },
+    "a57b-129": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "a57b-128"
+    },
+    "a57b-131": {
+      "renderedLength": 136014,
+      "gzipLength": 28416,
+      "brotliLength": 23613,
+      "metaUid": "a57b-130"
+    },
+    "a57b-133": {
+      "renderedLength": 103,
+      "gzipLength": 98,
+      "brotliLength": 74,
+      "metaUid": "a57b-132"
+    },
+    "a57b-135": {
+      "renderedLength": 17293,
+      "gzipLength": 4975,
+      "brotliLength": 4418,
+      "metaUid": "a57b-134"
+    },
+    "a57b-137": {
+      "renderedLength": 2460,
+      "gzipLength": 962,
+      "brotliLength": 807,
+      "metaUid": "a57b-136"
+    },
+    "a57b-139": {
+      "renderedLength": 60,
+      "gzipLength": 79,
+      "brotliLength": 56,
+      "metaUid": "a57b-138"
+    },
+    "a57b-141": {
+      "renderedLength": 5739,
+      "gzipLength": 1893,
+      "brotliLength": 1666,
+      "metaUid": "a57b-140"
+    },
+    "a57b-143": {
+      "renderedLength": 1348,
+      "gzipLength": 624,
+      "brotliLength": 513,
+      "metaUid": "a57b-142"
+    },
+    "a57b-145": {
+      "renderedLength": 1423,
+      "gzipLength": 631,
+      "brotliLength": 523,
+      "metaUid": "a57b-144"
+    },
+    "a57b-147": {
+      "renderedLength": 1531,
+      "gzipLength": 609,
+      "brotliLength": 500,
+      "metaUid": "a57b-146"
+    },
+    "a57b-149": {
+      "renderedLength": 116,
+      "gzipLength": 113,
+      "brotliLength": 87,
+      "metaUid": "a57b-148"
+    },
+    "a57b-151": {
+      "renderedLength": 106,
+      "gzipLength": 84,
+      "brotliLength": 72,
+      "metaUid": "a57b-150"
+    },
+    "a57b-153": {
+      "renderedLength": 69,
+      "gzipLength": 73,
+      "brotliLength": 55,
+      "metaUid": "a57b-152"
+    },
+    "a57b-155": {
+      "renderedLength": 1663,
+      "gzipLength": 714,
+      "brotliLength": 560,
+      "metaUid": "a57b-154"
+    },
+    "a57b-157": {
+      "renderedLength": 396,
+      "gzipLength": 264,
+      "brotliLength": 202,
+      "metaUid": "a57b-156"
+    },
+    "a57b-159": {
+      "renderedLength": 2037,
+      "gzipLength": 822,
+      "brotliLength": 703,
+      "metaUid": "a57b-158"
+    },
+    "a57b-161": {
+      "renderedLength": 4217,
+      "gzipLength": 1482,
+      "brotliLength": 1293,
+      "metaUid": "a57b-160"
+    },
+    "a57b-163": {
+      "renderedLength": 1336,
+      "gzipLength": 687,
+      "brotliLength": 569,
+      "metaUid": "a57b-162"
+    },
+    "a57b-165": {
+      "renderedLength": 6559,
+      "gzipLength": 1891,
+      "brotliLength": 1689,
+      "metaUid": "a57b-164"
+    },
+    "a57b-167": {
+      "renderedLength": 618,
+      "gzipLength": 328,
+      "brotliLength": 284,
+      "metaUid": "a57b-166"
+    },
+    "a57b-169": {
+      "renderedLength": 68,
+      "gzipLength": 80,
+      "brotliLength": 72,
+      "metaUid": "a57b-168"
+    },
+    "a57b-171": {
+      "renderedLength": 568,
+      "gzipLength": 316,
+      "brotliLength": 265,
+      "metaUid": "a57b-170"
+    },
+    "a57b-173": {
+      "renderedLength": 762,
+      "gzipLength": 348,
+      "brotliLength": 272,
+      "metaUid": "a57b-172"
+    },
+    "a57b-175": {
+      "renderedLength": 1307,
+      "gzipLength": 528,
+      "brotliLength": 409,
+      "metaUid": "a57b-174"
+    },
+    "a57b-177": {
+      "renderedLength": 530,
+      "gzipLength": 350,
+      "brotliLength": 253,
+      "metaUid": "a57b-176"
+    },
+    "a57b-179": {
+      "renderedLength": 349,
+      "gzipLength": 206,
+      "brotliLength": 158,
+      "metaUid": "a57b-178"
+    },
+    "a57b-181": {
+      "renderedLength": 553,
+      "gzipLength": 274,
+      "brotliLength": 236,
+      "metaUid": "a57b-180"
+    },
+    "a57b-183": {
+      "renderedLength": 2179,
+      "gzipLength": 854,
+      "brotliLength": 689,
+      "metaUid": "a57b-182"
+    },
+    "a57b-185": {
+      "renderedLength": 120,
+      "gzipLength": 126,
+      "brotliLength": 98,
+      "metaUid": "a57b-184"
+    },
+    "a57b-187": {
+      "renderedLength": 1047,
+      "gzipLength": 459,
+      "brotliLength": 400,
+      "metaUid": "a57b-186"
+    },
+    "a57b-189": {
+      "renderedLength": 7587,
+      "gzipLength": 2441,
+      "brotliLength": 2092,
+      "metaUid": "a57b-188"
+    },
+    "a57b-191": {
+      "renderedLength": 1291,
+      "gzipLength": 554,
+      "brotliLength": 477,
+      "metaUid": "a57b-190"
+    },
+    "a57b-193": {
+      "renderedLength": 1868,
+      "gzipLength": 646,
+      "brotliLength": 545,
+      "metaUid": "a57b-192"
+    },
+    "a57b-195": {
+      "renderedLength": 3233,
+      "gzipLength": 936,
+      "brotliLength": 796,
+      "metaUid": "a57b-194"
+    },
+    "a57b-197": {
+      "renderedLength": 24,
+      "gzipLength": 44,
+      "brotliLength": 28,
+      "metaUid": "a57b-196"
+    },
+    "a57b-199": {
+      "renderedLength": 2475,
+      "gzipLength": 939,
+      "brotliLength": 812,
+      "metaUid": "a57b-198"
+    },
+    "a57b-201": {
+      "renderedLength": 5068,
+      "gzipLength": 1584,
+      "brotliLength": 1384,
+      "metaUid": "a57b-200"
+    },
+    "a57b-203": {
+      "renderedLength": 2467,
+      "gzipLength": 831,
+      "brotliLength": 731,
+      "metaUid": "a57b-202"
+    },
+    "a57b-205": {
+      "renderedLength": 533,
+      "gzipLength": 299,
+      "brotliLength": 254,
+      "metaUid": "a57b-204"
+    },
+    "a57b-207": {
+      "renderedLength": 306,
+      "gzipLength": 198,
+      "brotliLength": 156,
+      "metaUid": "a57b-206"
+    },
+    "a57b-209": {
+      "renderedLength": 1609,
+      "gzipLength": 812,
+      "brotliLength": 630,
+      "metaUid": "a57b-208"
+    },
+    "a57b-211": {
+      "renderedLength": 1712,
+      "gzipLength": 665,
+      "brotliLength": 559,
+      "metaUid": "a57b-210"
+    },
+    "a57b-213": {
+      "renderedLength": 799,
+      "gzipLength": 468,
+      "brotliLength": 382,
+      "metaUid": "a57b-212"
+    },
+    "a57b-215": {
+      "renderedLength": 17,
+      "gzipLength": 37,
+      "brotliLength": 21,
+      "metaUid": "a57b-214"
+    },
+    "a57b-217": {
+      "renderedLength": 2211,
+      "gzipLength": 977,
+      "brotliLength": 782,
+      "metaUid": "a57b-216"
+    },
+    "a57b-219": {
+      "renderedLength": 7072,
+      "gzipLength": 2299,
+      "brotliLength": 2070,
+      "metaUid": "a57b-218"
+    },
+    "a57b-221": {
+      "renderedLength": 25014,
+      "gzipLength": 5402,
+      "brotliLength": 4906,
+      "metaUid": "a57b-220"
+    },
+    "a57b-223": {
+      "renderedLength": 112300,
+      "gzipLength": 25586,
+      "brotliLength": 22105,
+      "metaUid": "a57b-222"
+    },
+    "a57b-225": {
+      "renderedLength": 15077,
+      "gzipLength": 4443,
+      "brotliLength": 3907,
+      "metaUid": "a57b-224"
+    },
+    "a57b-227": {
+      "renderedLength": 361,
+      "gzipLength": 227,
+      "brotliLength": 175,
+      "metaUid": "a57b-226"
+    },
+    "a57b-229": {
+      "renderedLength": 99,
+      "gzipLength": 94,
+      "brotliLength": 90,
+      "metaUid": "a57b-228"
+    },
+    "a57b-231": {
+      "renderedLength": 625,
+      "gzipLength": 261,
+      "brotliLength": 211,
+      "metaUid": "a57b-230"
+    },
+    "a57b-233": {
+      "renderedLength": 3437,
+      "gzipLength": 798,
+      "brotliLength": 708,
+      "metaUid": "a57b-232"
+    },
+    "a57b-235": {
+      "renderedLength": 754,
+      "gzipLength": 346,
+      "brotliLength": 296,
+      "metaUid": "a57b-234"
+    },
+    "a57b-237": {
+      "renderedLength": 102502,
+      "gzipLength": 25654,
+      "brotliLength": 22050,
+      "metaUid": "a57b-236"
+    },
+    "a57b-239": {
+      "renderedLength": 30279,
+      "gzipLength": 7834,
+      "brotliLength": 6882,
+      "metaUid": "a57b-238"
+    },
+    "a57b-241": {
+      "renderedLength": 2646,
+      "gzipLength": 1123,
+      "brotliLength": 1023,
+      "metaUid": "a57b-240"
+    },
+    "a57b-243": {
+      "renderedLength": 1018,
+      "gzipLength": 357,
+      "brotliLength": 324,
+      "metaUid": "a57b-242"
+    },
+    "a57b-245": {
+      "renderedLength": 669,
+      "gzipLength": 283,
+      "brotliLength": 252,
+      "metaUid": "a57b-244"
+    },
+    "a57b-247": {
+      "renderedLength": 4023,
+      "gzipLength": 625,
+      "brotliLength": 524,
+      "metaUid": "a57b-246"
+    },
+    "a57b-249": {
+      "renderedLength": 134,
+      "gzipLength": 110,
+      "brotliLength": 92,
+      "metaUid": "a57b-248"
+    },
+    "a57b-251": {
+      "renderedLength": 2507,
+      "gzipLength": 638,
+      "brotliLength": 554,
+      "metaUid": "a57b-250"
+    },
+    "a57b-253": {
+      "renderedLength": 47,
+      "gzipLength": 63,
+      "brotliLength": 51,
+      "metaUid": "a57b-252"
+    },
+    "a57b-255": {
+      "renderedLength": 159,
+      "gzipLength": 136,
+      "brotliLength": 120,
+      "metaUid": "a57b-254"
+    },
+    "a57b-257": {
+      "renderedLength": 651,
+      "gzipLength": 354,
+      "brotliLength": 300,
+      "metaUid": "a57b-256"
+    },
+    "a57b-259": {
+      "renderedLength": 303,
+      "gzipLength": 230,
+      "brotliLength": 179,
+      "metaUid": "a57b-258"
+    }
+  },
+  "nodeMetas": {
+    "a57b-0": {
+      "id": "D:/Full-Stack test/main/resources/js/pages/Login.vue",
+      "moduleParts": {
+        "assets/Login-b800bf28.js": "a57b-1"
+      },
+      "imported": [
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-260"
+        },
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-254"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-2": {
+      "id": "D:/Full-Stack test/main/resources/js/layouts/Layout.vue",
+      "moduleParts": {
+        "assets/Layout-0ed1d4ac.js": "a57b-3"
+      },
+      "imported": [
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-254"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-4": {
+      "id": "D:/Full-Stack test/main/resources/js/pages/Item.vue",
+      "moduleParts": {
+        "assets/Item-fc40c1ac.js": "a57b-5"
+      },
+      "imported": [
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-260"
+        },
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-254"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-6": {
+      "id": "D:/Full-Stack test/main/resources/js/pages/Dashboard.vue",
+      "moduleParts": {
+        "assets/Dashboard-3e621121.js": "a57b-7"
+      },
+      "imported": [
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-260"
+        },
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-254"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-8": {
+      "id": "D:/Full-Stack test/main/resources/js/pages/Category.vue",
+      "moduleParts": {
+        "assets/Category-67a79678.js": "a57b-9"
+      },
+      "imported": [
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-260"
+        },
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-254"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-10": {
+      "id": "D:/Full-Stack test/main/resources/js/pages/Register.vue",
+      "moduleParts": {
+        "assets/Register-6d02b449.js": "a57b-11"
+      },
+      "imported": [
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-254"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-12": {
+      "id": "\u0000commonjsHelpers.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-13"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-16"
+        }
+      ]
+    },
+    "a57b-14": {
+      "id": "\u0000D:/Full-Stack test/main/node_modules/lodash/lodash.js?commonjs-module",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-15"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-16"
+        }
+      ]
+    },
+    "a57b-16": {
+      "id": "D:/Full-Stack test/main/node_modules/lodash/lodash.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-17"
+      },
+      "imported": [
+        {
+          "uid": "a57b-12"
+        },
+        {
+          "uid": "a57b-14"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-212"
+        }
+      ]
+    },
+    "a57b-18": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/enums.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-19"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-128"
+        },
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-98"
+        },
+        {
+          "uid": "a57b-100"
+        },
+        {
+          "uid": "a57b-102"
+        },
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-116"
+        },
+        {
+          "uid": "a57b-272"
+        },
+        {
+          "uid": "a57b-28"
+        },
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-96"
+        },
+        {
+          "uid": "a57b-92"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-20": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-21"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-26"
+        },
+        {
+          "uid": "a57b-114"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-84"
+        },
+        {
+          "uid": "a57b-48"
+        },
+        {
+          "uid": "a57b-44"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-22": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getWindow.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-23"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-68"
+        },
+        {
+          "uid": "a57b-86"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-42"
+        },
+        {
+          "uid": "a57b-24"
+        },
+        {
+          "uid": "a57b-36"
+        },
+        {
+          "uid": "a57b-112"
+        },
+        {
+          "uid": "a57b-74"
+        },
+        {
+          "uid": "a57b-78"
+        }
+      ]
+    },
+    "a57b-24": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-25"
+      },
+      "imported": [
+        {
+          "uid": "a57b-22"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-26"
+        },
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-114"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-40"
+        },
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-36"
+        },
+        {
+          "uid": "a57b-112"
+        },
+        {
+          "uid": "a57b-84"
+        },
+        {
+          "uid": "a57b-48"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-26": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/applyStyles.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-27"
+      },
+      "imported": [
+        {
+          "uid": "a57b-20"
+        },
+        {
+          "uid": "a57b-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        },
+        {
+          "uid": "a57b-124"
+        }
+      ]
+    },
+    "a57b-28": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/getBasePlacement.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-29"
+      },
+      "imported": [
+        {
+          "uid": "a57b-18"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-98"
+        },
+        {
+          "uid": "a57b-102"
+        },
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-96"
+        },
+        {
+          "uid": "a57b-92"
+        }
+      ]
+    },
+    "a57b-30": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/math.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-31"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-114"
+        },
+        {
+          "uid": "a57b-54"
+        },
+        {
+          "uid": "a57b-36"
+        },
+        {
+          "uid": "a57b-90"
+        },
+        {
+          "uid": "a57b-80"
+        }
+      ]
+    },
+    "a57b-32": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/userAgent.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-33"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-34"
+        }
+      ]
+    },
+    "a57b-34": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/isLayoutViewport.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-35"
+      },
+      "imported": [
+        {
+          "uid": "a57b-32"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-36"
+        },
+        {
+          "uid": "a57b-78"
+        }
+      ]
+    },
+    "a57b-36": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-37"
+      },
+      "imported": [
+        {
+          "uid": "a57b-24"
+        },
+        {
+          "uid": "a57b-30"
+        },
+        {
+          "uid": "a57b-22"
+        },
+        {
+          "uid": "a57b-34"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-114"
+        },
+        {
+          "uid": "a57b-38"
+        },
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-76"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-38": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-39"
+      },
+      "imported": [
+        {
+          "uid": "a57b-36"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-108"
+        }
+      ]
+    },
+    "a57b-40": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/contains.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-41"
+      },
+      "imported": [
+        {
+          "uid": "a57b-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-42": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-43"
+      },
+      "imported": [
+        {
+          "uid": "a57b-22"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-82"
+        },
+        {
+          "uid": "a57b-90"
+        },
+        {
+          "uid": "a57b-80"
+        }
+      ]
+    },
+    "a57b-44": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-45"
+      },
+      "imported": [
+        {
+          "uid": "a57b-20"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-50"
+        }
+      ]
+    },
+    "a57b-46": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-47"
+      },
+      "imported": [
+        {
+          "uid": "a57b-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-114"
+        },
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-76"
+        },
+        {
+          "uid": "a57b-48"
+        },
+        {
+          "uid": "a57b-90"
+        },
+        {
+          "uid": "a57b-78"
+        },
+        {
+          "uid": "a57b-80"
+        }
+      ]
+    },
+    "a57b-48": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-49"
+      },
+      "imported": [
+        {
+          "uid": "a57b-20"
+        },
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-86"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-84"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-50": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-51"
+      },
+      "imported": [
+        {
+          "uid": "a57b-22"
+        },
+        {
+          "uid": "a57b-20"
+        },
+        {
+          "uid": "a57b-42"
+        },
+        {
+          "uid": "a57b-24"
+        },
+        {
+          "uid": "a57b-44"
+        },
+        {
+          "uid": "a57b-48"
+        },
+        {
+          "uid": "a57b-32"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-52": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-53"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-92"
+        }
+      ]
+    },
+    "a57b-54": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/within.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-55"
+      },
+      "imported": [
+        {
+          "uid": "a57b-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-108"
+        }
+      ]
+    },
+    "a57b-56": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-57"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-58"
+        }
+      ]
+    },
+    "a57b-58": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-59"
+      },
+      "imported": [
+        {
+          "uid": "a57b-56"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-94"
+        }
+      ]
+    },
+    "a57b-60": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/expandToHashMap.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-61"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-94"
+        }
+      ]
+    },
+    "a57b-62": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/arrow.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-63"
+      },
+      "imported": [
+        {
+          "uid": "a57b-28"
+        },
+        {
+          "uid": "a57b-38"
+        },
+        {
+          "uid": "a57b-40"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-52"
+        },
+        {
+          "uid": "a57b-54"
+        },
+        {
+          "uid": "a57b-58"
+        },
+        {
+          "uid": "a57b-60"
+        },
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        }
+      ]
+    },
+    "a57b-64": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/getVariation.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-65"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-98"
+        },
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-96"
+        },
+        {
+          "uid": "a57b-92"
+        }
+      ]
+    },
+    "a57b-66": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/computeStyles.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-67"
+      },
+      "imported": [
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-22"
+        },
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-42"
+        },
+        {
+          "uid": "a57b-28"
+        },
+        {
+          "uid": "a57b-64"
+        },
+        {
+          "uid": "a57b-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        },
+        {
+          "uid": "a57b-124"
+        }
+      ]
+    },
+    "a57b-68": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/eventListeners.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-69"
+      },
+      "imported": [
+        {
+          "uid": "a57b-22"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        },
+        {
+          "uid": "a57b-124"
+        }
+      ]
+    },
+    "a57b-70": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-71"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-98"
+        }
+      ]
+    },
+    "a57b-72": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-73"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-98"
+        }
+      ]
+    },
+    "a57b-74": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-75"
+      },
+      "imported": [
+        {
+          "uid": "a57b-22"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-112"
+        },
+        {
+          "uid": "a57b-76"
+        },
+        {
+          "uid": "a57b-80"
+        }
+      ]
+    },
+    "a57b-76": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-77"
+      },
+      "imported": [
+        {
+          "uid": "a57b-36"
+        },
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-74"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-114"
+        },
+        {
+          "uid": "a57b-78"
+        },
+        {
+          "uid": "a57b-80"
+        }
+      ]
+    },
+    "a57b-78": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-79"
+      },
+      "imported": [
+        {
+          "uid": "a57b-22"
+        },
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-76"
+        },
+        {
+          "uid": "a57b-34"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-80": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-81"
+      },
+      "imported": [
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-42"
+        },
+        {
+          "uid": "a57b-76"
+        },
+        {
+          "uid": "a57b-74"
+        },
+        {
+          "uid": "a57b-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-82": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-83"
+      },
+      "imported": [
+        {
+          "uid": "a57b-42"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-114"
+        },
+        {
+          "uid": "a57b-86"
+        },
+        {
+          "uid": "a57b-84"
+        }
+      ]
+    },
+    "a57b-84": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-85"
+      },
+      "imported": [
+        {
+          "uid": "a57b-48"
+        },
+        {
+          "uid": "a57b-82"
+        },
+        {
+          "uid": "a57b-20"
+        },
+        {
+          "uid": "a57b-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-86"
+        }
+      ]
+    },
+    "a57b-86": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-87"
+      },
+      "imported": [
+        {
+          "uid": "a57b-84"
+        },
+        {
+          "uid": "a57b-48"
+        },
+        {
+          "uid": "a57b-22"
+        },
+        {
+          "uid": "a57b-82"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-88": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/rectToClientRect.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-89"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-90"
+        }
+      ]
+    },
+    "a57b-90": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-91"
+      },
+      "imported": [
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-78"
+        },
+        {
+          "uid": "a57b-80"
+        },
+        {
+          "uid": "a57b-86"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-42"
+        },
+        {
+          "uid": "a57b-24"
+        },
+        {
+          "uid": "a57b-36"
+        },
+        {
+          "uid": "a57b-48"
+        },
+        {
+          "uid": "a57b-40"
+        },
+        {
+          "uid": "a57b-20"
+        },
+        {
+          "uid": "a57b-88"
+        },
+        {
+          "uid": "a57b-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-94"
+        }
+      ]
+    },
+    "a57b-92": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/computeOffsets.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-93"
+      },
+      "imported": [
+        {
+          "uid": "a57b-28"
+        },
+        {
+          "uid": "a57b-64"
+        },
+        {
+          "uid": "a57b-52"
+        },
+        {
+          "uid": "a57b-18"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-104"
+        },
+        {
+          "uid": "a57b-94"
+        }
+      ]
+    },
+    "a57b-94": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/detectOverflow.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-95"
+      },
+      "imported": [
+        {
+          "uid": "a57b-90"
+        },
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-36"
+        },
+        {
+          "uid": "a57b-92"
+        },
+        {
+          "uid": "a57b-88"
+        },
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-24"
+        },
+        {
+          "uid": "a57b-58"
+        },
+        {
+          "uid": "a57b-60"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-98"
+        },
+        {
+          "uid": "a57b-100"
+        },
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-96"
+        }
+      ]
+    },
+    "a57b-96": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-97"
+      },
+      "imported": [
+        {
+          "uid": "a57b-64"
+        },
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-28"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-98"
+        }
+      ]
+    },
+    "a57b-98": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/flip.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-99"
+      },
+      "imported": [
+        {
+          "uid": "a57b-70"
+        },
+        {
+          "uid": "a57b-28"
+        },
+        {
+          "uid": "a57b-72"
+        },
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-96"
+        },
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-64"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        }
+      ]
+    },
+    "a57b-100": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/hide.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-101"
+      },
+      "imported": [
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-94"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        }
+      ]
+    },
+    "a57b-102": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/offset.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-103"
+      },
+      "imported": [
+        {
+          "uid": "a57b-28"
+        },
+        {
+          "uid": "a57b-18"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        }
+      ]
+    },
+    "a57b-104": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-105"
+      },
+      "imported": [
+        {
+          "uid": "a57b-92"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        },
+        {
+          "uid": "a57b-124"
+        }
+      ]
+    },
+    "a57b-106": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/getAltAxis.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-107"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-108"
+        }
+      ]
+    },
+    "a57b-108": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-109"
+      },
+      "imported": [
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-28"
+        },
+        {
+          "uid": "a57b-52"
+        },
+        {
+          "uid": "a57b-106"
+        },
+        {
+          "uid": "a57b-54"
+        },
+        {
+          "uid": "a57b-38"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-64"
+        },
+        {
+          "uid": "a57b-56"
+        },
+        {
+          "uid": "a57b-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-126"
+        }
+      ]
+    },
+    "a57b-110": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-111"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-112"
+        }
+      ]
+    },
+    "a57b-112": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-113"
+      },
+      "imported": [
+        {
+          "uid": "a57b-74"
+        },
+        {
+          "uid": "a57b-22"
+        },
+        {
+          "uid": "a57b-24"
+        },
+        {
+          "uid": "a57b-110"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-114"
+        }
+      ]
+    },
+    "a57b-114": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-115"
+      },
+      "imported": [
+        {
+          "uid": "a57b-36"
+        },
+        {
+          "uid": "a57b-112"
+        },
+        {
+          "uid": "a57b-20"
+        },
+        {
+          "uid": "a57b-24"
+        },
+        {
+          "uid": "a57b-76"
+        },
+        {
+          "uid": "a57b-46"
+        },
+        {
+          "uid": "a57b-82"
+        },
+        {
+          "uid": "a57b-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        }
+      ]
+    },
+    "a57b-116": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/orderModifiers.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-117"
+      },
+      "imported": [
+        {
+          "uid": "a57b-18"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        }
+      ]
+    },
+    "a57b-118": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/debounce.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-119"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        }
+      ]
+    },
+    "a57b-120": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/mergeByName.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-121"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        }
+      ]
+    },
+    "a57b-122": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/createPopper.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-123"
+      },
+      "imported": [
+        {
+          "uid": "a57b-114"
+        },
+        {
+          "uid": "a57b-38"
+        },
+        {
+          "uid": "a57b-86"
+        },
+        {
+          "uid": "a57b-50"
+        },
+        {
+          "uid": "a57b-42"
+        },
+        {
+          "uid": "a57b-116"
+        },
+        {
+          "uid": "a57b-118"
+        },
+        {
+          "uid": "a57b-272"
+        },
+        {
+          "uid": "a57b-273"
+        },
+        {
+          "uid": "a57b-28"
+        },
+        {
+          "uid": "a57b-120"
+        },
+        {
+          "uid": "a57b-94"
+        },
+        {
+          "uid": "a57b-24"
+        },
+        {
+          "uid": "a57b-18"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-128"
+        },
+        {
+          "uid": "a57b-126"
+        },
+        {
+          "uid": "a57b-124"
+        }
+      ]
+    },
+    "a57b-124": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/popper-lite.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-125"
+      },
+      "imported": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-68"
+        },
+        {
+          "uid": "a57b-104"
+        },
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-26"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-128"
+        },
+        {
+          "uid": "a57b-126"
+        }
+      ]
+    },
+    "a57b-126": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/popper.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-127"
+      },
+      "imported": [
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-68"
+        },
+        {
+          "uid": "a57b-104"
+        },
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-26"
+        },
+        {
+          "uid": "a57b-102"
+        },
+        {
+          "uid": "a57b-98"
+        },
+        {
+          "uid": "a57b-108"
+        },
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-100"
+        },
+        {
+          "uid": "a57b-124"
+        },
+        {
+          "uid": "a57b-271"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-128"
+        }
+      ]
+    },
+    "a57b-128": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/index.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-129"
+      },
+      "imported": [
+        {
+          "uid": "a57b-18"
+        },
+        {
+          "uid": "a57b-271"
+        },
+        {
+          "uid": "a57b-122"
+        },
+        {
+          "uid": "a57b-126"
+        },
+        {
+          "uid": "a57b-124"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-212"
+        },
+        {
+          "uid": "a57b-130"
+        }
+      ]
+    },
+    "a57b-130": {
+      "id": "D:/Full-Stack test/main/node_modules/bootstrap/dist/js/bootstrap.esm.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-131"
+      },
+      "imported": [
+        {
+          "uid": "a57b-128"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-212"
+        }
+      ]
+    },
+    "a57b-132": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/bind.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-133"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-134"
+        }
+      ]
+    },
+    "a57b-134": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/utils.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-135"
+      },
+      "imported": [
+        {
+          "uid": "a57b-132"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-200"
+        },
+        {
+          "uid": "a57b-194"
+        },
+        {
+          "uid": "a57b-160"
+        },
+        {
+          "uid": "a57b-158"
+        },
+        {
+          "uid": "a57b-170"
+        },
+        {
+          "uid": "a57b-140"
+        },
+        {
+          "uid": "a57b-136"
+        },
+        {
+          "uid": "a57b-206"
+        },
+        {
+          "uid": "a57b-164"
+        },
+        {
+          "uid": "a57b-144"
+        },
+        {
+          "uid": "a57b-146"
+        },
+        {
+          "uid": "a57b-156"
+        },
+        {
+          "uid": "a57b-162"
+        },
+        {
+          "uid": "a57b-166"
+        },
+        {
+          "uid": "a57b-190"
+        },
+        {
+          "uid": "a57b-188"
+        },
+        {
+          "uid": "a57b-174"
+        },
+        {
+          "uid": "a57b-182"
+        }
+      ]
+    },
+    "a57b-136": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/AxiosError.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-137"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-160"
+        },
+        {
+          "uid": "a57b-170"
+        },
+        {
+          "uid": "a57b-140"
+        },
+        {
+          "uid": "a57b-198"
+        },
+        {
+          "uid": "a57b-190"
+        },
+        {
+          "uid": "a57b-188"
+        },
+        {
+          "uid": "a57b-172"
+        }
+      ]
+    },
+    "a57b-138": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/null.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-139"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-140"
+        },
+        {
+          "uid": "a57b-190"
+        }
+      ]
+    },
+    "a57b-140": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/toFormData.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-141"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-136"
+        },
+        {
+          "uid": "a57b-138"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-160"
+        },
+        {
+          "uid": "a57b-156"
+        },
+        {
+          "uid": "a57b-142"
+        }
+      ]
+    },
+    "a57b-142": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/AxiosURLSearchParams.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-143"
+      },
+      "imported": [
+        {
+          "uid": "a57b-140"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-144"
+        },
+        {
+          "uid": "a57b-150"
+        }
+      ]
+    },
+    "a57b-144": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/buildURL.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-145"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-142"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-200"
+        },
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-146": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/InterceptorManager.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-147"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-200"
+        }
+      ]
+    },
+    "a57b-148": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/defaults/transitional.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-149"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-160"
+        },
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-150": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/platform/browser/classes/URLSearchParams.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-151"
+      },
+      "imported": [
+        {
+          "uid": "a57b-142"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-154"
+        }
+      ]
+    },
+    "a57b-152": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/platform/browser/classes/FormData.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-153"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-154"
+        }
+      ]
+    },
+    "a57b-154": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/platform/browser/index.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-155"
+      },
+      "imported": [
+        {
+          "uid": "a57b-150"
+        },
+        {
+          "uid": "a57b-152"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-270"
+        }
+      ]
+    },
+    "a57b-156": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/toURLEncodedForm.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-157"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-140"
+        },
+        {
+          "uid": "a57b-270"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-160"
+        }
+      ]
+    },
+    "a57b-158": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/formDataToJSON.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-159"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-160"
+        }
+      ]
+    },
+    "a57b-160": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/defaults/index.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-161"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-136"
+        },
+        {
+          "uid": "a57b-148"
+        },
+        {
+          "uid": "a57b-140"
+        },
+        {
+          "uid": "a57b-156"
+        },
+        {
+          "uid": "a57b-270"
+        },
+        {
+          "uid": "a57b-158"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-192"
+        },
+        {
+          "uid": "a57b-166"
+        }
+      ]
+    },
+    "a57b-162": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/parseHeaders.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-163"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-164"
+        }
+      ]
+    },
+    "a57b-164": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/AxiosHeaders.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-165"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-162"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-200"
+        },
+        {
+          "uid": "a57b-194"
+        },
+        {
+          "uid": "a57b-192"
+        },
+        {
+          "uid": "a57b-166"
+        },
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-166": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/transformData.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-167"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-160"
+        },
+        {
+          "uid": "a57b-164"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-192"
+        }
+      ]
+    },
+    "a57b-168": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/cancel/isCancel.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-169"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-192"
+        }
+      ]
+    },
+    "a57b-170": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/cancel/CanceledError.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-171"
+      },
+      "imported": [
+        {
+          "uid": "a57b-136"
+        },
+        {
+          "uid": "a57b-134"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-202"
+        },
+        {
+          "uid": "a57b-192"
+        },
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-172": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/settle.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-173"
+      },
+      "imported": [
+        {
+          "uid": "a57b-136"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-174": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/cookies.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-175"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-270"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-176": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-177"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-180"
+        }
+      ]
+    },
+    "a57b-178": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/combineURLs.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-179"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-180"
+        }
+      ]
+    },
+    "a57b-180": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/buildFullPath.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-181"
+      },
+      "imported": [
+        {
+          "uid": "a57b-176"
+        },
+        {
+          "uid": "a57b-178"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-200"
+        },
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-182": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-183"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-270"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-184": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/parseProtocol.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-185"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-186": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/speedometer.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-187"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-188"
+        }
+      ]
+    },
+    "a57b-188": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/adapters/xhr.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-189"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-172"
+        },
+        {
+          "uid": "a57b-174"
+        },
+        {
+          "uid": "a57b-144"
+        },
+        {
+          "uid": "a57b-180"
+        },
+        {
+          "uid": "a57b-182"
+        },
+        {
+          "uid": "a57b-148"
+        },
+        {
+          "uid": "a57b-136"
+        },
+        {
+          "uid": "a57b-170"
+        },
+        {
+          "uid": "a57b-184"
+        },
+        {
+          "uid": "a57b-270"
+        },
+        {
+          "uid": "a57b-164"
+        },
+        {
+          "uid": "a57b-186"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-190"
+        }
+      ]
+    },
+    "a57b-190": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/adapters/adapters.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-191"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-138"
+        },
+        {
+          "uid": "a57b-188"
+        },
+        {
+          "uid": "a57b-136"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-192"
+        }
+      ]
+    },
+    "a57b-192": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/dispatchRequest.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-193"
+      },
+      "imported": [
+        {
+          "uid": "a57b-166"
+        },
+        {
+          "uid": "a57b-168"
+        },
+        {
+          "uid": "a57b-160"
+        },
+        {
+          "uid": "a57b-170"
+        },
+        {
+          "uid": "a57b-164"
+        },
+        {
+          "uid": "a57b-190"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-200"
+        }
+      ]
+    },
+    "a57b-194": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/mergeConfig.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-195"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-164"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-200"
+        }
+      ]
+    },
+    "a57b-196": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/env/data.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-197"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        },
+        {
+          "uid": "a57b-198"
+        }
+      ]
+    },
+    "a57b-198": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/validator.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-199"
+      },
+      "imported": [
+        {
+          "uid": "a57b-196"
+        },
+        {
+          "uid": "a57b-136"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-200"
+        }
+      ]
+    },
+    "a57b-200": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/core/Axios.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-201"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-144"
+        },
+        {
+          "uid": "a57b-146"
+        },
+        {
+          "uid": "a57b-192"
+        },
+        {
+          "uid": "a57b-194"
+        },
+        {
+          "uid": "a57b-180"
+        },
+        {
+          "uid": "a57b-198"
+        },
+        {
+          "uid": "a57b-164"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        }
+      ]
+    },
+    "a57b-202": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/cancel/CancelToken.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-203"
+      },
+      "imported": [
+        {
+          "uid": "a57b-170"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        }
+      ]
+    },
+    "a57b-204": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/spread.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-205"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        }
+      ]
+    },
+    "a57b-206": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/isAxiosError.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-207"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        }
+      ]
+    },
+    "a57b-208": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/helpers/HttpStatusCode.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-209"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-210"
+        }
+      ]
+    },
+    "a57b-210": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/axios.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-211"
+      },
+      "imported": [
+        {
+          "uid": "a57b-134"
+        },
+        {
+          "uid": "a57b-132"
+        },
+        {
+          "uid": "a57b-200"
+        },
+        {
+          "uid": "a57b-194"
+        },
+        {
+          "uid": "a57b-160"
+        },
+        {
+          "uid": "a57b-158"
+        },
+        {
+          "uid": "a57b-170"
+        },
+        {
+          "uid": "a57b-202"
+        },
+        {
+          "uid": "a57b-168"
+        },
+        {
+          "uid": "a57b-196"
+        },
+        {
+          "uid": "a57b-140"
+        },
+        {
+          "uid": "a57b-136"
+        },
+        {
+          "uid": "a57b-204"
+        },
+        {
+          "uid": "a57b-206"
+        },
+        {
+          "uid": "a57b-164"
+        },
+        {
+          "uid": "a57b-208"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-260"
+        }
+      ]
+    },
+    "a57b-212": {
+      "id": "D:/Full-Stack test/main/resources/js/bootstrap.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-213"
+      },
+      "imported": [
+        {
+          "uid": "a57b-16"
+        },
+        {
+          "uid": "a57b-128"
+        },
+        {
+          "uid": "a57b-130"
+        },
+        {
+          "uid": "a57b-260"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-258"
+        }
+      ]
+    },
+    "a57b-214": {
+      "id": "D:/Full-Stack test/main/resources/sass/app.scss",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-215"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-258"
+        }
+      ]
+    },
+    "a57b-216": {
+      "id": "\u0000vite/preload-helper",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-217"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-218": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-219"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-224"
+        },
+        {
+          "uid": "a57b-222"
+        },
+        {
+          "uid": "a57b-220"
+        }
+      ]
+    },
+    "a57b-220": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-221"
+      },
+      "imported": [
+        {
+          "uid": "a57b-218"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-222"
+        }
+      ]
+    },
+    "a57b-222": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-223"
+      },
+      "imported": [
+        {
+          "uid": "a57b-220"
+        },
+        {
+          "uid": "a57b-218"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-224"
+        }
+      ]
+    },
+    "a57b-224": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-225"
+      },
+      "imported": [
+        {
+          "uid": "a57b-222"
+        },
+        {
+          "uid": "a57b-218"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-261"
+        }
+      ]
+    },
+    "a57b-226": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/env.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-227"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-234"
+        }
+      ]
+    },
+    "a57b-228": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/const.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-229"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-234"
+        },
+        {
+          "uid": "a57b-232"
+        }
+      ]
+    },
+    "a57b-230": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/time.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-231"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-234"
+        },
+        {
+          "uid": "a57b-232"
+        }
+      ]
+    },
+    "a57b-232": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/proxy.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-233"
+      },
+      "imported": [
+        {
+          "uid": "a57b-228"
+        },
+        {
+          "uid": "a57b-230"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-234"
+        }
+      ]
+    },
+    "a57b-234": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-235"
+      },
+      "imported": [
+        {
+          "uid": "a57b-226"
+        },
+        {
+          "uid": "a57b-228"
+        },
+        {
+          "uid": "a57b-232"
+        },
+        {
+          "uid": "a57b-262"
+        },
+        {
+          "uid": "a57b-263"
+        },
+        {
+          "uid": "a57b-230"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-236"
+        }
+      ]
+    },
+    "a57b-236": {
+      "id": "D:/Full-Stack test/main/node_modules/vue-router/dist/vue-router.mjs",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-237"
+      },
+      "imported": [
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-234"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-238": {
+      "id": "D:/Full-Stack test/main/node_modules/vuex/dist/vuex.esm-bundler.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-239"
+      },
+      "imported": [
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-234"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-0"
+        },
+        {
+          "uid": "a57b-2"
+        },
+        {
+          "uid": "a57b-4"
+        },
+        {
+          "uid": "a57b-6"
+        },
+        {
+          "uid": "a57b-8"
+        },
+        {
+          "uid": "a57b-10"
+        },
+        {
+          "uid": "a57b-248"
+        }
+      ]
+    },
+    "a57b-240": {
+      "id": "D:/Full-Stack test/main/node_modules/vuex-persistedstate/dist/vuex-persistedstate.es.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-241"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-248"
+        }
+      ]
+    },
+    "a57b-242": {
+      "id": "D:/Full-Stack test/main/resources/js/store/auth.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-243"
+      },
+      "imported": [
+        {
+          "uid": "a57b-260"
+        },
+        {
+          "uid": "a57b-250"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-248"
+        }
+      ]
+    },
+    "a57b-244": {
+      "id": "D:/Full-Stack test/main/resources/js/store/dashboard.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-245"
+      },
+      "imported": [
+        {
+          "uid": "a57b-260"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-248"
+        }
+      ]
+    },
+    "a57b-246": {
+      "id": "D:/Full-Stack test/main/resources/js/store/category.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-247"
+      },
+      "imported": [
+        {
+          "uid": "a57b-260"
+        },
+        {
+          "uid": "a57b-250"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-248"
+        }
+      ]
+    },
+    "a57b-248": {
+      "id": "D:/Full-Stack test/main/resources/js/store/index.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-249"
+      },
+      "imported": [
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-240"
+        },
+        {
+          "uid": "a57b-242"
+        },
+        {
+          "uid": "a57b-244"
+        },
+        {
+          "uid": "a57b-246"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-258"
+        },
+        {
+          "uid": "a57b-250"
+        }
+      ]
+    },
+    "a57b-250": {
+      "id": "D:/Full-Stack test/main/resources/js/router/index.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-251"
+      },
+      "imported": [
+        {
+          "uid": "a57b-216"
+        },
+        {
+          "uid": "a57b-236"
+        },
+        {
+          "uid": "a57b-248"
+        },
+        {
+          "uid": "a57b-0",
+          "dynamic": true
+        },
+        {
+          "uid": "a57b-10",
+          "dynamic": true
+        },
+        {
+          "uid": "a57b-2",
+          "dynamic": true
+        },
+        {
+          "uid": "a57b-6",
+          "dynamic": true
+        },
+        {
+          "uid": "a57b-8",
+          "dynamic": true
+        },
+        {
+          "uid": "a57b-4",
+          "dynamic": true
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-258"
+        },
+        {
+          "uid": "a57b-242"
+        },
+        {
+          "uid": "a57b-246"
+        }
+      ]
+    },
+    "a57b-252": {
+      "id": "D:/Full-Stack test/main/resources/js/components/App.vue?vue&type=style&index=0&lang.css",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-253"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-256"
+        }
+      ]
+    },
+    "a57b-254": {
+      "id": "\u0000plugin-vue:export-helper",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-255"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-0"
+        },
+        {
+          "uid": "a57b-2"
+        },
+        {
+          "uid": "a57b-4"
+        },
+        {
+          "uid": "a57b-6"
+        },
+        {
+          "uid": "a57b-8"
+        },
+        {
+          "uid": "a57b-10"
+        },
+        {
+          "uid": "a57b-256"
+        }
+      ]
+    },
+    "a57b-256": {
+      "id": "D:/Full-Stack test/main/resources/js/components/App.vue",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-257"
+      },
+      "imported": [
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-252"
+        },
+        {
+          "uid": "a57b-254"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-258"
+        }
+      ]
+    },
+    "a57b-258": {
+      "id": "\\resources\\js\\app.js",
+      "moduleParts": {
+        "assets/app-80a87d10.js": "a57b-259"
+      },
+      "imported": [
+        {
+          "uid": "a57b-212"
+        },
+        {
+          "uid": "a57b-214"
+        },
+        {
+          "uid": "a57b-250"
+        },
+        {
+          "uid": "a57b-248"
+        },
+        {
+          "uid": "a57b-261"
+        },
+        {
+          "uid": "a57b-256"
+        }
+      ],
+      "importedBy": [],
+      "isEntry": true
+    },
+    "a57b-260": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/index.js",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "a57b-210"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-0"
+        },
+        {
+          "uid": "a57b-4"
+        },
+        {
+          "uid": "a57b-6"
+        },
+        {
+          "uid": "a57b-8"
+        },
+        {
+          "uid": "a57b-212"
+        },
+        {
+          "uid": "a57b-242"
+        },
+        {
+          "uid": "a57b-244"
+        },
+        {
+          "uid": "a57b-246"
+        }
+      ]
+    },
+    "a57b-261": {
+      "id": "D:/Full-Stack test/main/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "a57b-224"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-0"
+        },
+        {
+          "uid": "a57b-238"
+        },
+        {
+          "uid": "a57b-2"
+        },
+        {
+          "uid": "a57b-4"
+        },
+        {
+          "uid": "a57b-6"
+        },
+        {
+          "uid": "a57b-8"
+        },
+        {
+          "uid": "a57b-10"
+        },
+        {
+          "uid": "a57b-258"
+        },
+        {
+          "uid": "a57b-256"
+        },
+        {
+          "uid": "a57b-236"
+        }
+      ]
+    },
+    "a57b-262": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/api/index.js",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "a57b-264"
+        },
+        {
+          "uid": "a57b-265"
+        },
+        {
+          "uid": "a57b-266"
+        },
+        {
+          "uid": "a57b-267"
+        },
+        {
+          "uid": "a57b-268"
+        },
+        {
+          "uid": "a57b-269"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-234"
+        }
+      ]
+    },
+    "a57b-263": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/plugin.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-234"
+        }
+      ]
+    },
+    "a57b-264": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/api/api.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-262"
+        }
+      ]
+    },
+    "a57b-265": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/api/app.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-262"
+        }
+      ]
+    },
+    "a57b-266": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/api/component.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-262"
+        }
+      ]
+    },
+    "a57b-267": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/api/context.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-262"
+        }
+      ]
+    },
+    "a57b-268": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/api/hooks.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-262"
+        }
+      ]
+    },
+    "a57b-269": {
+      "id": "D:/Full-Stack test/main/node_modules/@vue/devtools-api/lib/esm/api/util.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-262"
+        }
+      ]
+    },
+    "a57b-270": {
+      "id": "D:/Full-Stack test/main/node_modules/axios/lib/platform/index.js",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "a57b-154"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-160"
+        },
+        {
+          "uid": "a57b-156"
+        },
+        {
+          "uid": "a57b-188"
+        },
+        {
+          "uid": "a57b-174"
+        },
+        {
+          "uid": "a57b-182"
+        }
+      ]
+    },
+    "a57b-271": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/modifiers/index.js",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "a57b-26"
+        },
+        {
+          "uid": "a57b-62"
+        },
+        {
+          "uid": "a57b-66"
+        },
+        {
+          "uid": "a57b-68"
+        },
+        {
+          "uid": "a57b-98"
+        },
+        {
+          "uid": "a57b-100"
+        },
+        {
+          "uid": "a57b-102"
+        },
+        {
+          "uid": "a57b-104"
+        },
+        {
+          "uid": "a57b-108"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-128"
+        },
+        {
+          "uid": "a57b-126"
+        }
+      ]
+    },
+    "a57b-272": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/validateModifiers.js",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "a57b-274"
+        },
+        {
+          "uid": "a57b-18"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        }
+      ]
+    },
+    "a57b-273": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/uniqueBy.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-122"
+        }
+      ]
+    },
+    "a57b-274": {
+      "id": "D:/Full-Stack test/main/node_modules/@popperjs/core/lib/utils/format.js",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "a57b-272"
+        }
+      ]
+    }
+  },
+  "env": {
+    "rollup": "3.17.0"
+  },
+  "options": {
+    "gzip": true,
+    "brotli": true,
+    "sourcemap": false
+  }
+}
