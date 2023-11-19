@@ -53,7 +53,7 @@ const routes = [
             },
             {
                 name: "category",
-                path: '/',
+                path: '/category',
                 component: Category,
                 meta: {
                     title: `Category`
@@ -61,7 +61,7 @@ const routes = [
             },
             {
                 name: "item",
-                path: '/',
+                path: '/item',
                 component: Item,
                 meta: {
                     title: `Item`
@@ -73,7 +73,7 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(),
-    routes, // short for `routes: routes`
+    routes,
 })
  
 router.beforeEach((to, from, next) => {

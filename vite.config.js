@@ -14,6 +14,7 @@ export default defineConfig({
                 'resources/sass/app.scss',
                 'resources/js/app.js',
             ],
+            ssr: 'resources/js/ssr.js',
             refresh: true,
         }),
         vue({
@@ -31,4 +32,9 @@ export default defineConfig({
             '@': '/resources/js',
         },
     },
+    build: {
+        rollupOptions: {
+            external: ['@inertiajs/vue3', '@inertiajs/vue3/server'],
+        },
+    }
 });

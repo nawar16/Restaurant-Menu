@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,12 +14,24 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', function () {
+    return Inertia::render('Dashboard');
+});
+Route::get('/category', function () {
+    return Inertia::render('Category');
+});
+Route::get('/item', function () {
+    return Inertia::render('Item');
+});
+Route::get('/login', function () {
+    return Inertia::render('Login');
+});
+Route::get('/register', function () {
+    return Inertia::render('Register');
+});
 
-Route::get('{any}', function () {
-    return view('welcome');
-})->where('any', '.*');
+// Route::get('{any}', function () {
+//     return view('welcome');
+// })->where('any', '.*');
 
 Auth::routes();
-
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
- 
