@@ -30,16 +30,16 @@ Restaurant menu that contains categories, subcategories and items with supportin
 
 ## Bundle Analyz Visualizer
 
-![root](./public/screens/v1.png)
+![root](https://user-images.githubusercontent.com/57288326/284151232-dabbfcad-db11-49f6-a5f5-2028215deea1.png)
 
-![app](./public/screens/v2.png)
+![app](https://user-images.githubusercontent.com/57288326/284151361-727001b5-4345-45e4-8223-71c82336af5b.png)
 
-![main](./public/screens/v3.png)
+![main](https://user-images.githubusercontent.com/57288326/284151403-5704b996-3830-49e2-be45-2a0bc6abc0da.png)
 
-![node_modules](./public/screens/v4.png)
+![node_modules](https://user-images.githubusercontent.com/57288326/284151424-eb596e7c-bca2-4370-be0f-ce3bc5c9cedf.png)
 
-![lodash](./public/screens/v5.png)
+![lodash](https://user-images.githubusercontent.com/57288326/284151446-18583a04-f70a-4451-9c3b-ef1de6e6d142.png)
 
-![vue](./public/screens/v6.png)
+![vue](https://user-images.githubusercontent.com/57288326/284151460-ea36b0e2-2a7f-4e86-bfe7-9ecc261675a6.png)
 
 
